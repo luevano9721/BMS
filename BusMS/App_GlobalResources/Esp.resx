@@ -1,0 +1,2706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btAdd" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btClose" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="btDelete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btEdit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="btExcel" xml:space="preserve">
+    <value>Exportar a Excel</value>
+  </data>
+  <data name="btReset" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="btSave" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btSearch" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_AlerInformation_page_Title" xml:space="preserve">
+    <value>Información de las alertas</value>
+  </data>
+  <data name="lbl_AlertInformationI_Widget_Title1" xml:space="preserve">
+    <value>Contenedor de las alertas</value>
+  </data>
+  <data name="lbl_AlertInformation_Filter" xml:space="preserve">
+    <value>Filtro:</value>
+  </data>
+  <data name="lbl_AlertInformation_Search" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_BlackList_category" xml:space="preserve">
+    <value>Categoría:</value>
+  </data>
+  <data name="lbl_BlackList_Comments" xml:space="preserve">
+    <value>Comentarios:</value>
+  </data>
+  <data name="lbl_BlackList_Grid_vendor" xml:space="preserve">
+    <value>Proveedor </value>
+  </data>
+  <data name="lbl_BlackList_Page_Title" xml:space="preserve">
+    <value>Módulo de lista negra</value>
+  </data>
+  <data name="lbl_BlackList_Reson" xml:space="preserve">
+    <value>Razón:</value>
+  </data>
+  <data name="lbl_BlackList_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_BlackList_Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lbl_BlackList_vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_BlackList_Widget_Title1" xml:space="preserve">
+    <value>Lista negra</value>
+  </data>
+  <data name="lbl_BlackList_Widget_Title2" xml:space="preserve">
+    <value>Lista negra</value>
+  </data>
+  <data name="lbl_C_Alerts_Action" xml:space="preserve">
+    <value>Acción </value>
+  </data>
+  <data name="lbl_C_Alerts_Alert_item" xml:space="preserve">
+    <value>Elemento de alerta</value>
+  </data>
+  <data name="lbl_C_Alerts_Automatic_close_date" xml:space="preserve">
+    <value>Fecha de cerrado automatico:</value>
+  </data>
+  <data name="lbl_C_Alerts_Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="lbl_C_Alerts_Description" xml:space="preserve">
+    <value>Descripción:</value>
+  </data>
+  <data name="lbl_C_Alerts_Enabled" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="lbl_C_Alerts_Page_Title" xml:space="preserve">
+    <value>Catálogo de alertas:</value>
+  </data>
+  <data name="lbl_C_Alerts_Period_to_execute" xml:space="preserve">
+    <value>Periodo de ejecución:</value>
+  </data>
+  <data name="lbl_C_Alerts_Priority" xml:space="preserve">
+    <value>Prioridad:</value>
+  </data>
+  <data name="lbl_C_Alerts_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_Alerts_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_C_Alerts_Vendor_Grid" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_C_Alerts_Widget_Title1_Alerts" xml:space="preserve">
+    <value>Información de las alertas:</value>
+  </data>
+  <data name="lbl_C_Alerts_Widget_Title2_Alerts" xml:space="preserve">
+    <value>Alertas registradas:</value>
+  </data>
+  <data name="lbl_C_BusDriver_Active" xml:space="preserve">
+    <value>Activo:</value>
+  </data>
+  <data name="lbl_C_BusDriver_BusDriver_ID" xml:space="preserve">
+    <value>ID camión / Conductor:</value>
+  </data>
+  <data name="lbl_C_BusDriver_Bus_ID" xml:space="preserve">
+    <value>ID camión:</value>
+  </data>
+  <data name="lbl_C_BusDriver_Driver" xml:space="preserve">
+    <value>Conductor:</value>
+  </data>
+  <data name="lbl_C_BusDriver_Page_Title" xml:space="preserve">
+    <value>Catalogo camión/Conductor</value>
+  </data>
+  <data name="lbl_C_BusDriver_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_BusDriver_Shift" xml:space="preserve">
+    <value>Turno</value>
+  </data>
+  <data name="lbl_C_BusDriver_Shift_ID" xml:space="preserve">
+    <value>ID Turno:</value>
+  </data>
+  <data name="lbl_C_BusDriver_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_C_BusDriver_Vendor_Grid" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_C_BusDriver_Widget_Title1" xml:space="preserve">
+    <value>Información camión/Conductor</value>
+  </data>
+  <data name="lbl_C_BusDriver_Widget_Title2" xml:space="preserve">
+    <value>camiones/Conductores Registrados</value>
+  </data>
+  <data name="lbl_C_Bus_Active" xml:space="preserve">
+    <value>Activo:</value>
+  </data>
+  <data name="lbl_C_Bus_Blacklist" xml:space="preserve">
+    <value>Lista Negra:</value>
+  </data>
+  <data name="lbl_C_Bus_Bus_ID" xml:space="preserve">
+    <value>ID del camión:</value>
+  </data>
+  <data name="lbl_C_Bus_Capacity" xml:space="preserve">
+    <value>Capacidad:</value>
+  </data>
+  <data name="lbl_C_Bus_GPS_ID" xml:space="preserve">
+    <value>ID GPS:</value>
+  </data>
+  <data name="lbl_C_Bus_License_plate" xml:space="preserve">
+    <value>Placas:</value>
+  </data>
+  <data name="lbl_C_Bus_Line" xml:space="preserve">
+    <value>Línea:</value>
+  </data>
+  <data name="lbl_C_Bus_Maker" xml:space="preserve">
+    <value>Fabricante:</value>
+  </data>
+  <data name="lbl_C_Bus_Model" xml:space="preserve">
+    <value>Modelo:</value>
+  </data>
+  <data name="lbl_C_Bus_Page_Title" xml:space="preserve">
+    <value>Catálogo de camiones</value>
+  </data>
+  <data name="lbl_C_Bus_Vendor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_C_Bus_Vendor_Grid" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_C_Bus_Widget_Title1" xml:space="preserve">
+    <value>Información del camión</value>
+  </data>
+  <data name="lbl_C_Bus_Widget_Title2" xml:space="preserve">
+    <value>Camiones registrados</value>
+  </data>
+  <data name="lbl_C_Bus__VIN" xml:space="preserve">
+    <value>VIN:</value>
+  </data>
+  <data name="lbl_C_Fare_Fare_ID" xml:space="preserve">
+    <value>ID Tarifa:</value>
+  </data>
+  <data name="lbl_C_Fare_Page_Title" xml:space="preserve">
+    <value>Catálogo de tarifa</value>
+  </data>
+  <data name="lbl_C_Fare_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_Fare_Service" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="lbl_C_Fare_Unit_Cost" xml:space="preserve">
+    <value>Costo unitario:</value>
+  </data>
+  <data name="lbl_C_Fare_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_C_Fare_Vendor_Grid" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_C_Fare_Widget_Title1" xml:space="preserve">
+    <value>Información de la tarifa</value>
+  </data>
+  <data name="lbl_C_Fare_Widget_Title2" xml:space="preserve">
+    <value>Tarifas registradas</value>
+  </data>
+  <data name="lbl_C_Route_Destination_ID" xml:space="preserve">
+    <value>ID Destino</value>
+  </data>
+  <data name="lbl_C_Route_Origin_ID" xml:space="preserve">
+    <value>ID Origen:</value>
+  </data>
+  <data name="lbl_C_Route_Page_Title" xml:space="preserve">
+    <value>Catálogo de rutas</value>
+  </data>
+  <data name="lbl_C_Route_Route_ID" xml:space="preserve">
+    <value>ID ruta:</value>
+  </data>
+  <data name="lbl_C_Route_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_Route_Service_ID" xml:space="preserve">
+    <value>ID Servicio:</value>
+  </data>
+  <data name="lbl_C_Route_Travel_Time" xml:space="preserve">
+    <value>Tiempo de viaje:</value>
+  </data>
+  <data name="lbl_C_Route_Widget_Title1" xml:space="preserve">
+    <value>Información de la ruta</value>
+  </data>
+  <data name="lbl_C_Route_Widget_Title2" xml:space="preserve">
+    <value>Rutas registradas</value>
+  </data>
+  <data name="lbl_C_Route_Zone_ID" xml:space="preserve">
+    <value>ID Zona:</value>
+  </data>
+  <data name="lbl_C_Service_Maximum_Distance" xml:space="preserve">
+    <value>Máxima distancia:</value>
+  </data>
+  <data name="lbl_C_Service_Minimum_Distance" xml:space="preserve">
+    <value>Mínima Distancia:</value>
+  </data>
+  <data name="lbl_C_Service_Page_Title" xml:space="preserve">
+    <value>Catálogo de servicios</value>
+  </data>
+  <data name="lbl_C_Service_Service_ID" xml:space="preserve">
+    <value>ID Servicio:</value>
+  </data>
+  <data name="lbl_C_Service_Widget_Title1" xml:space="preserve">
+    <value>Información de servicio</value>
+  </data>
+  <data name="lbl_C_Service_Widget_Title2" xml:space="preserve">
+    <value>Servicios registrados</value>
+  </data>
+  <data name="lbl_C_sevice_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_Shift_Exit_Shift" xml:space="preserve">
+    <value>Turno de salida:</value>
+  </data>
+  <data name="lbl_C_Shift_Invoice_Group" xml:space="preserve">
+    <value>Grupo de facturas:</value>
+  </data>
+  <data name="lbl_C_Shift_Page_Title" xml:space="preserve">
+    <value>Catálogo de turnos</value>
+  </data>
+  <data name="lbl_C_Shift_Search" xml:space="preserve">
+    <value>buscar</value>
+  </data>
+  <data name="lbl_C_Shift_Shift_ID" xml:space="preserve">
+    <value>ID turno:</value>
+  </data>
+  <data name="lbl_C_Shift_Shift_Name" xml:space="preserve">
+    <value>Nombre del turno:</value>
+  </data>
+  <data name="lbl_C_Shift_Special_Shift" xml:space="preserve">
+    <value>Turno especial</value>
+  </data>
+  <data name="lbl_C_Shift_Start_Time" xml:space="preserve">
+    <value>Hora de inicio:</value>
+  </data>
+  <data name="lbl_C_Shift_Text" xml:space="preserve">
+    <value>Please enter special services cost, which is going to be the fare to be used on each invoice</value>
+  </data>
+  <data name="lbl_C_Shift_Widget_Title1" xml:space="preserve">
+    <value>Información del turno</value>
+  </data>
+  <data name="lbl_C_Shift_Widget_Title2" xml:space="preserve">
+    <value>Turnos registrados</value>
+  </data>
+  <data name="lbl_C_StopPoint_Address" xml:space="preserve">
+    <value>Dirección:</value>
+  </data>
+  <data name="lbl_C_StopPoint_Coordinates" xml:space="preserve">
+    <value>Coordinadas</value>
+  </data>
+  <data name="lbl_C_StopPoint_Name" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="lbl_C_StopPoint_Page_Title" xml:space="preserve">
+    <value>Catálogo de puntos de parada</value>
+  </data>
+  <data name="lbl_C_StopPoint_search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_StopPoint_Stop_Stop_ID" xml:space="preserve">
+    <value>ID Punto de parada:</value>
+  </data>
+  <data name="lbl_C_StopPoint_Widget_Title1" xml:space="preserve">
+    <value>Información de los puntos de parada</value>
+  </data>
+  <data name="lbl_C_StopPoint_Widget_Title2" xml:space="preserve">
+    <value>Puntos de parada registrados</value>
+  </data>
+  <data name="lbl_C_Vendor_Address" xml:space="preserve">
+    <value>Dirección:</value>
+  </data>
+  <data name="lbl_C_Vendor_Building" xml:space="preserve">
+    <value>Edificio:</value>
+  </data>
+  <data name="lbl_C_Vendor_Contact_Name" xml:space="preserve">
+    <value>Nombre de contacto:</value>
+  </data>
+  <data name="lbl_C_Vendor_Firm_Name" xml:space="preserve">
+    <value>Nombre de la firma:</value>
+  </data>
+  <data name="lbl_C_Vendor_Name" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="lbl_C_vendor_Page_Title" xml:space="preserve">
+    <value>Catálogo de proveedores</value>
+  </data>
+  <data name="lbl_C_Vendor_Phone_Number" xml:space="preserve">
+    <value>Numero de teléfono</value>
+  </data>
+  <data name="lbl_C_Vendor_RFC" xml:space="preserve">
+    <value>RFC:</value>
+  </data>
+  <data name="lbl_C_Vendor_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_C_Vendor_Vendor_ID" xml:space="preserve">
+    <value>ID Proveedor:</value>
+  </data>
+  <data name="lbl_C_Vendor_Widget_Title1" xml:space="preserve">
+    <value>Información del proveedor</value>
+  </data>
+  <data name="lbl_C_Vendor_Widget_Title2" xml:space="preserve">
+    <value>Proveedores registrados</value>
+  </data>
+  <data name="btCertificate" xml:space="preserve">
+    <value>Rutas certificadas</value>
+  </data>
+  <data name="btDesafult" xml:space="preserve">
+    <value>Restablecer la configuración predeterminada</value>
+  </data>
+  <data name="btGLobal" xml:space="preserve">
+    <value>Aplicar en la configuración global</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnEmail" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>Recuperar</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>Actualizar usuario</value>
+  </data>
+  <data name="btPassword" xml:space="preserve">
+    <value>Actualizar contraseña</value>
+  </data>
+  <data name="btSaveNewValue" xml:space="preserve">
+    <value>Guardar nuevo valor</value>
+  </data>
+  <data name="btSaveRol" xml:space="preserve">
+    <value>Guardar Permisos</value>
+  </data>
+  <data name="btSaveRolPermissions" xml:space="preserve">
+    <value>Guardar permisos</value>
+  </data>
+  <data name="btSelectUser" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="btSession" xml:space="preserve">
+    <value>Aplicar en la sesión</value>
+  </data>
+  <data name="btShowUploads" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="lbl_checkPassExpiration" xml:space="preserve">
+    <value>Cambiar fecha de expiración? </value>
+  </data>
+  <data name="lblUserSettings_Language" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="lbl_avalible_certificates" xml:space="preserve">
+    <value>Rutas disponibles</value>
+  </data>
+  <data name="lbl_BlackList_DinamicTag1" xml:space="preserve">
+    <value>Camión ID:</value>
+  </data>
+  <data name="lbl_BlackList_DinamicTag2" xml:space="preserve">
+    <value>Conductor ID:</value>
+  </data>
+  <data name="lbl_BlackList_DinamicTag3" xml:space="preserve">
+    <value>Turno:</value>
+  </data>
+  <data name="lbl_Certificates" xml:space="preserve">
+    <value>Rutas certificadas para este usuario</value>
+  </data>
+  <data name="lbl_C_Driver_Address" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="lbl_C_Driver_Birthdate" xml:space="preserve">
+    <value>Fecha de nacimiento:</value>
+  </data>
+  <data name="lbl_C_Driver_Blacklist" xml:space="preserve">
+    <value>Lista negra</value>
+  </data>
+  <data name="lbl_C_Driver_Driver_ID" xml:space="preserve">
+    <value>ID Conductor:</value>
+  </data>
+  <data name="lbl_C_Driver_Enabled" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="lbl_C_Driver_Hire_Date" xml:space="preserve">
+    <value>Fecha de contratación</value>
+  </data>
+  <data name="lbl_C_Driver_License_Expiration" xml:space="preserve">
+    <value>Expiración de la licencia</value>
+  </data>
+  <data name="lbl_C_Driver_License_Number" xml:space="preserve">
+    <value>Numero de licencia</value>
+  </data>
+  <data name="lbl_C_Driver_Name" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="lbl_C_Driver_Page_Title" xml:space="preserve">
+    <value>Catálogo de conductores</value>
+  </data>
+  <data name="lbl_C_Driver_Telephone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="lbl_C_Driver_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_C_Driver_Vendor_Grid" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_C_Driver_Widget_Title1" xml:space="preserve">
+    <value>Información del conductor</value>
+  </data>
+  <data name="lbl_C_Driver_Widget_Title2" xml:space="preserve">
+    <value>Conductores registrados</value>
+  </data>
+  <data name="lbl_EditUser_PageTitle" xml:space="preserve">
+    <value>Editar usuario</value>
+  </data>
+  <data name="lbl_EditUser_widgettitle" xml:space="preserve">
+    <value>Información de usuario</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_Alerts" xml:space="preserve">
+    <value>Alertas:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_Catalogs" xml:space="preserve">
+    <value>Catalogo:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_CurrentIVA" xml:space="preserve">
+    <value>Actual IVA:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_DailyOperation" xml:space="preserve">
+    <value>Operación diaria:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_LastModification" xml:space="preserve">
+    <value>Ultima modificación del IVA:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_Maintenance" xml:space="preserve">
+    <value>Mantenimiento:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_PageTitle" xml:space="preserve">
+    <value>Configuraciones globales</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_WidgetTitle1" xml:space="preserve">
+    <value>Lista de distribución</value>
+  </data>
+  <data name="lbl_GlobalConfiguration_WidgetTitle2" xml:space="preserve">
+    <value>Configuración de IVA</value>
+  </data>
+  <data name="lbl_Login_Text" xml:space="preserve">
+    <value>Ingrese su ID de usuario y dirección de correo electrónico a continuación, y le enviaremos instrucciones sobre cómo recuperar una contraseña.</value>
+  </data>
+  <data name="lbl_MasterPage_Block" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="lbl_MasterPage_Footer" xml:space="preserve">
+    <value>Desarrollado por ASD</value>
+  </data>
+  <data name="lbl_MasterPage_HelloUser" xml:space="preserve">
+    <value>ID Usuario: </value>
+  </data>
+  <data name="lbl_MasterPage_HelloUserName" xml:space="preserve">
+    <value>Nombre: </value>
+  </data>
+  <data name="lbl_MasterPage_Inactive" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="lbl_MasterPage_Logout" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="lbl_MasterPage_SystemAdmin" xml:space="preserve">
+    <value>Administración del sistema</value>
+  </data>
+  <data name="lbl_MasterPage_SystemOperation" xml:space="preserve">
+    <value>Operaciones del sistema</value>
+  </data>
+  <data name="lbl_MasterPage_Title" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="lbl_MasterPage_UnderAlert" xml:space="preserve">
+    <value>Bajo Alerta</value>
+  </data>
+  <data name="lbl_MasterPage_UserSettings" xml:space="preserve">
+    <value>Ajustes de usuario</value>
+  </data>
+  <data name="lbl_MebuPortal_PendingActivities" xml:space="preserve">
+    <value>Actividades pendientes</value>
+  </data>
+  <data name="lbl_MenuPortal_OperacionesRecientes" xml:space="preserve">
+    <value>Operaciones recientes</value>
+  </data>
+  <data name="lbl_MenuPortal_RevisionesRecientes" xml:space="preserve">
+    <value>Revisiones recientes</value>
+  </data>
+  <data name="lbl_MenuPortal_UltimasAlertas" xml:space="preserve">
+    <value>Últimas alertas</value>
+  </data>
+  <data name="lbl_MenuPortal_Welcome" xml:space="preserve">
+    <value>Bienvenido a BMS</value>
+  </data>
+  <data name="lbl_NewRol_Info" xml:space="preserve">
+    <value>Primero, Agrega un rol</value>
+  </data>
+  <data name="lbl_NewRol_Info2" xml:space="preserve">
+    <value>Necesitas agregar un rol para poder seleccionar permisos y roles!</value>
+  </data>
+  <data name="lbl_NewRol_PageTitle" xml:space="preserve">
+    <value>Agregar nuevo rol</value>
+  </data>
+  <data name="lbl_NewRol_ROLEID" xml:space="preserve">
+    <value>ID ROL:</value>
+  </data>
+  <data name="lbl_NewRol_WidgetTitle1" xml:space="preserve">
+    <value>Información de los roles</value>
+  </data>
+  <data name="lbl_NewRol_WidgetTitle2" xml:space="preserve">
+    <value>Roles Registrados</value>
+  </data>
+  <data name="lbl_NewRol_WidgetTitle3" xml:space="preserve">
+    <value>Permisos y privilegios</value>
+  </data>
+  <data name="lbl_NewUser_Address" xml:space="preserve">
+    <value>Dirección:</value>
+  </data>
+  <data name="lbl_NewUser_Birthdare" xml:space="preserve">
+    <value>Fecha de nacimiento:</value>
+  </data>
+  <data name="lbl_NewUser_BMSID" xml:space="preserve">
+    <value>ID BMS:</value>
+  </data>
+  <data name="lbl_NewUser_CompleteUserName" xml:space="preserve">
+    <value>Nombre Completo del usuario:</value>
+  </data>
+  <data name="lbl_NewUser_ConfirmPassword" xml:space="preserve">
+    <value>Confirmar contraseña:</value>
+  </data>
+  <data name="lbl_NewUser_departament" xml:space="preserve">
+    <value>Departamento:</value>
+  </data>
+  <data name="lbl_NewUser_Email" xml:space="preserve">
+    <value>Correo electrónico:</value>
+  </data>
+  <data name="lbl_NewUser_EmployeeID" xml:space="preserve">
+    <value>Numero de empleado:</value>
+  </data>
+  <data name="lbl_NewUser_ExpirationPasswordDate" xml:space="preserve">
+    <value>Fecha de expiración de la contraseña:</value>
+  </data>
+  <data name="lbl_NewUser_HireDate" xml:space="preserve">
+    <value>Fecha de contratación:</value>
+  </data>
+  <data name="lbl_NewUser_Info2" xml:space="preserve">
+    <value> Necesitas agregar a un usuario para seleccionar sus permisos y privilegios!</value>
+  </data>
+  <data name="lbl_NewUser_Infor" xml:space="preserve">
+    <value>Primero, Agregar usuario</value>
+  </data>
+  <data name="lbl_NewUser_PageTitle" xml:space="preserve">
+    <value>Agregar un nuevo usuario</value>
+  </data>
+  <data name="lbl_NewUser_Password" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="lbl_NewUser_Permissions" xml:space="preserve">
+    <value>Permisos y privilegios</value>
+  </data>
+  <data name="lbl_NewUser_Profile" xml:space="preserve">
+    <value>Perfil:</value>
+  </data>
+  <data name="lbl_NewUser_Role" xml:space="preserve">
+    <value>Rol:</value>
+  </data>
+  <data name="lbl_NewUser_Telephone" xml:space="preserve">
+    <value>Teléfono:</value>
+  </data>
+  <data name="lbl_NewUser_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_NewUser_WidgetTitle1" xml:space="preserve">
+    <value>Información del usuario</value>
+  </data>
+  <data name="lbl_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_Search1" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_Search2" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_UserChangePassword_ChangePassword" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+  </data>
+  <data name="lbl_UserChangePassword_ConfirmPassword" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="lbl_UserChangePassword_CurrentPassword" xml:space="preserve">
+    <value>Contraseña actual</value>
+  </data>
+  <data name="lbl_UserChangePassword_ExpirationDatePassowrd" xml:space="preserve">
+    <value>Fecha de expiración de la contraseña</value>
+  </data>
+  <data name="lbl_UserChangePassword_NewPassword" xml:space="preserve">
+    <value>Nuevo contraseña</value>
+  </data>
+  <data name="lbl_UserChangePassword_PageTitle" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="lbl_UserChangePassword_UserID" xml:space="preserve">
+    <value>ID usuario:</value>
+  </data>
+  <data name="lbl_UserChangePassword_UserID1" xml:space="preserve">
+    <value>ID Usuario:</value>
+  </data>
+  <data name="lbl_UserChangePassword_UserName" xml:space="preserve">
+    <value>Nombre de usuario</value>
+  </data>
+  <data name="lbl_UserChangePassword_WidgetTitle1" xml:space="preserve">
+    <value>Detalles del usuario</value>
+  </data>
+  <data name="lbl_UserChangePassword_widget_Title1" xml:space="preserve">
+    <value>Seleccionar usuario</value>
+  </data>
+  <data name="lbl_UserInformation_PageTitle" xml:space="preserve">
+    <value>Usuarios registrados</value>
+  </data>
+  <data name="lbl_UserInformation_Page_Title" xml:space="preserve">
+    <value>Información de usuario</value>
+  </data>
+  <data name="lbl_UserInformation_Seach" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lbl_UserSettings_ConfirmPassword" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="lbl_UserSettings_CurrentEmail" xml:space="preserve">
+    <value>Actual correo electrónico</value>
+  </data>
+  <data name="lbl_UserSettings_CurrentPassword" xml:space="preserve">
+    <value>Actual contraseña</value>
+  </data>
+  <data name="lbl_UserSettings_EnterNewEmail" xml:space="preserve">
+    <value>Ingresa el nuevo correo electrónico</value>
+  </data>
+  <data name="lbl_UserSettings_LanguageNThemeColor" xml:space="preserve">
+    <value>lenguaje &amp; color de tema</value>
+  </data>
+  <data name="lbl_UserSettings_NewPassword" xml:space="preserve">
+    <value>Nuevo contraseña</value>
+  </data>
+  <data name="lbl_UserSettings_PageTitle" xml:space="preserve">
+    <value>Ajustes del usuario</value>
+  </data>
+  <data name="lbl_UserSettings_WidgetTitle1" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+  </data>
+  <data name="lbl_UserSettings_WidgetTitle2" xml:space="preserve">
+    <value>Cambiar correo electrónico</value>
+  </data>
+  <data name="lbl_UserSettings_WidgetTitle3" xml:space="preserve">
+    <value>Color de tema :</value>
+  </data>
+  <data name="lbl_BackToRevision" xml:space="preserve">
+    <value>Regresar a Revisiones</value>
+  </data>
+  <data name="lbl_EditRevision" xml:space="preserve">
+    <value>Inspeccion de camiones</value>
+  </data>
+  <data name="lbl_EditRevision_EconomicNo" xml:space="preserve">
+    <value>No. Economico</value>
+  </data>
+  <data name="lbl_EditRevision_EmergencyReflectors" xml:space="preserve">
+    <value>Reflectores de seguridad:</value>
+  </data>
+  <data name="lbl_EditRevision_GPS" xml:space="preserve">
+    <value>Sistema GPS:</value>
+  </data>
+  <data name="lbl_EditRevision_IdentifiedPCE" xml:space="preserve">
+    <value>Identificado como PCI:</value>
+  </data>
+  <data name="lbl_EditRevision_License" xml:space="preserve">
+    <value>Licencia:</value>
+  </data>
+  <data name="lbl_EditRevision_LicensePlates" xml:space="preserve">
+    <value>Placas:</value>
+  </data>
+  <data name="lbl_EditRevision_Lintern" xml:space="preserve">
+    <value>Linterna:</value>
+  </data>
+  <data name="lbl_EditRevision_MaintenanceRevision" xml:space="preserve">
+    <value>Revision de mantenimiento</value>
+  </data>
+  <data name="lbl_EditRevision_Model" xml:space="preserve">
+    <value>Modelo (año de camión):</value>
+  </data>
+  <data name="lbl_EditRevision_Radio" xml:space="preserve">
+    <value>Radio de comunicacion:</value>
+  </data>
+  <data name="lbl_EditRevision_Route" xml:space="preserve">
+    <value>Recorrido:</value>
+  </data>
+  <data name="lbl_EditRevision_RouteMap" xml:space="preserve">
+    <value>Mapa del recorrido:</value>
+  </data>
+  <data name="lbl_EditRevision_SecurityRevision" xml:space="preserve">
+    <value>Revision de seguridad</value>
+  </data>
+  <data name="lbl_EditRevision_SerialNo" xml:space="preserve">
+    <value>No.Serie:</value>
+  </data>
+  <data name="lbl_EditRevision_Shift" xml:space="preserve">
+    <value>Turno:</value>
+  </data>
+  <data name="lbl_EditRevision_week" xml:space="preserve">
+    <value>Semana:</value>
+  </data>
+  <data name="lbl_EditRevison_LegalRevision" xml:space="preserve">
+    <value>Revision Legal</value>
+  </data>
+  <data name="lbl_EditRevison_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Driver" xml:space="preserve">
+    <value>Conductor</value>
+  </data>
+  <data name="lbl_MaintenaceI_GPS" xml:space="preserve">
+    <value>GPS:</value>
+  </data>
+  <data name="lbl_MaintenaceI_License" xml:space="preserve">
+    <value>Licencia:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Licenseplate" xml:space="preserve">
+    <value>Placas:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Lintern" xml:space="preserve">
+    <value>Linterna:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Map" xml:space="preserve">
+    <value>Mapa de la ruta:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Model" xml:space="preserve">
+    <value>Modelo:</value>
+  </data>
+  <data name="lbl_MaintenaceI_PCE" xml:space="preserve">
+    <value>Identificado como PCE:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Radio" xml:space="preserve">
+    <value>Radio:</value>
+  </data>
+  <data name="lbl_MaintenaceI_reflectors" xml:space="preserve">
+    <value>Focos de emergencia:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Route" xml:space="preserve">
+    <value>Ruta:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Serial" xml:space="preserve">
+    <value>Número de serie:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Shift" xml:space="preserve">
+    <value>Turno:</value>
+  </data>
+  <data name="lbl_MaintenaceI_Vendor_ID" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_MaintenaceI_Week" xml:space="preserve">
+    <value>Semana:</value>
+  </data>
+  <data name="lbl_MaintenaceI_WidgetTitle2" xml:space="preserve">
+    <value>Revisiones registradas:</value>
+  </data>
+  <data name="lbl_MaintenaceProgram_Alert" xml:space="preserve">
+    <value>Alerta:</value>
+  </data>
+  <data name="lbl_MaintenaceProgram_BusID" xml:space="preserve">
+    <value>ID camión:</value>
+  </data>
+  <data name="lbl_MaintenaceProgram_Comments" xml:space="preserve">
+    <value>Comentarios:</value>
+  </data>
+  <data name="lbl_MaintenaceProgram_Expiration" xml:space="preserve">
+    <value>Fecha de expiración:</value>
+  </data>
+  <data name="lbl_MaintenaceProgram_Priority" xml:space="preserve">
+    <value>Prioridad:</value>
+  </data>
+  <data name="lbl_MaintenaceProgram_VendorID" xml:space="preserve">
+    <value>ID Proveedor:</value>
+  </data>
+  <data name="lbl_MaintenanceI_MaintenanceProgram" xml:space="preserve">
+    <value>Programa de mantenimiento</value>
+  </data>
+  <data name="lbl_MaintenanceI_PageTitle" xml:space="preserve">
+    <value>Inspección</value>
+  </data>
+  <data name="lbl_MaintenanceI_PageTitle1" xml:space="preserve">
+    <value>Inspección</value>
+  </data>
+  <data name="lbl_MaintenanceI_WidgetTitle" xml:space="preserve">
+    <value>Revisión legal</value>
+  </data>
+  <data name="lbl_MaintenanceProgram_Widget2" xml:space="preserve">
+    <value>Alartas registradas</value>
+  </data>
+  <data name="lbl_Status" xml:space="preserve">
+    <value>Estatus</value>
+  </data>
+  <data name="lbl_Vendor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="Maintenance_revision" xml:space="preserve">
+    <value>Revision de mantenimiento</value>
+  </data>
+  <data name="bl_MaintenanceProgram_Dialog" xml:space="preserve">
+    <value>Quieres eliminar este registro?</value>
+  </data>
+  <data name="btCancelAlert" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btCloseNoFoundButton" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="btconfirmAlert" xml:space="preserve">
+    <value>Confirmar alerta</value>
+  </data>
+  <data name="btDeleteImage" xml:space="preserve">
+    <value>Eliminar imagen</value>
+  </data>
+  <data name="btDeleteImageAfter" xml:space="preserve">
+    <value>Eliminar imagen</value>
+  </data>
+  <data name="btSaveData" xml:space="preserve">
+    <value>Guardar informacion</value>
+  </data>
+  <data name="btUploadImage" xml:space="preserve">
+    <value>Subir Imagen</value>
+  </data>
+  <data name="btUploadImageAfter" xml:space="preserve">
+    <value>Subir Imagen</value>
+  </data>
+  <data name="lblEditRevision_Case" xml:space="preserve">
+    <value>Case o Nota</value>
+  </data>
+  <data name="lbl_EditRevisions_confirmAlert_Action" xml:space="preserve">
+    <value>Acción a tomar:</value>
+  </data>
+  <data name="lbl_EditRevisions_confirmAlert_Heading" xml:space="preserve">
+    <value>Información de alerta</value>
+  </data>
+  <data name="lbl_EditRevisions_confirmAlert_Proposal" xml:space="preserve">
+    <value>Fecha de propuesta</value>
+  </data>
+  <data name="lbl_EditRevisions_confirmAlert_ThisAction" xml:space="preserve">
+    <value>Esta acción creará una alerta. Indica la fecha de propuesta y las medidas que se tomaran</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_After" xml:space="preserve">
+    <value>Después</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_Before" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_Select_Image" xml:space="preserve">
+    <value>Seleccionar imagen</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="lbl_EditRevisions_uploadImageDiv_Upload" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="lbl_EditRevision_MetodoInspec" xml:space="preserve">
+    <value>Método de inspección</value>
+  </data>
+  <data name="lbl_EditRevison_NoFoundTitle" xml:space="preserve">
+    <value>Subir antes/despues imagen</value>
+  </data>
+  <data name="lbl_EditRevison_NoFound_Text1" xml:space="preserve">
+    <value>Primero, necesitas indicar que has encontrado un problema</value>
+  </data>
+  <data name="lbl_EditRevison_NoFound_Text2" xml:space="preserve">
+    <value>Primero, necesitas indicar que has encontrado un problema. Compruebe una opción de revisión.</value>
+  </data>
+  <data name="lbl_MaintenanceProgram_EmergentText" xml:space="preserve">
+    <value>Por favor confirma si quieres guardar este ítem</value>
+  </data>
+  <data name="lbl_maitenanceI_dialog" xml:space="preserve">
+    <value>¿Deseas eliminar este registro?</value>
+  </data>
+  <data name="lbl_maitenanceI_DialogClose" xml:space="preserve">
+    <value>Esta acción no se puede deshacer, confirma que deseas autorizar esta modificación.</value>
+  </data>
+  <data name="lbl_maitenanceI_dialogConfirm" xml:space="preserve">
+    <value>Confirme que desea autorizar esta modificación.</value>
+  </data>
+  <data name="lbRevisionCaseID" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="lbRevisionNoteID" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="REV_EditRevision2" xml:space="preserve">
+    <value>Por favor selecciona una imagen valida (jpg , png , gif , jpeg).</value>
+  </data>
+  <data name="REV_EditRevisions1" xml:space="preserve">
+    <value>Por favor selecciona una imagen valida (jpg , png , gif , jpeg).</value>
+  </data>
+  <data name="RV_EditRevisions_Required" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="RV_EditRevisions_Required1" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="VS_MaintenanceProgram1" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="lbl_ChangePassword_Dialog" xml:space="preserve">
+    <value>Confirme por favor que desea guardar los cambios realizados.</value>
+  </data>
+  <data name="msg_ChangePassword_UpdatePassword" xml:space="preserve">
+    <value>Se ha actualizado la contraseña para el usuario:</value>
+  </data>
+  <data name="VS_ChangePassword" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="lbl_UserSettings_Dialog" xml:space="preserve">
+    <value>¿Seguro que quieres eliminar tu cuenta? Deberá ponerse en contacto con el administrador para volver a acceder a este sitio</value>
+  </data>
+  <data name="lbl_ViewUsers_DialogConfirm" xml:space="preserve">
+    <value>Este ítem se eliminara permanentemente y no se podrá recuperar. ¿Estas seguro?</value>
+  </data>
+  <data name="msg_EditRevisions_AlertCreated" xml:space="preserve">
+    <value>Alerta creada satisfactoriamente</value>
+  </data>
+  <data name="msg_EditRevisions_AlertCreatedSuc" xml:space="preserve">
+    <value>Alerta creada satisfactoriamente</value>
+  </data>
+  <data name="msg_EditRevisions_AlertsDeleted" xml:space="preserve">
+    <value>Nota de revisión se subió. También, todas las alertas relacionadas a este ítem fueron eliminadas</value>
+  </data>
+  <data name="msg_EditRevisions_CharacterError" xml:space="preserve">
+    <value>El nombre de la imagen no puede contener el siguiente carácter: #</value>
+  </data>
+  <data name="msg_EditRevisions_DataSaved" xml:space="preserve">
+    <value>Datos guardados satisfactoriamente</value>
+  </data>
+  <data name="msg_EditRevisions_ErrorCharacter" xml:space="preserve">
+    <value>El nombre de la imagen no puede contener el siguiente carácter: #</value>
+  </data>
+  <data name="msg_EditRevisions_ImageUploaded" xml:space="preserve">
+    <value>Imagen subida satisfactoriamente</value>
+  </data>
+  <data name="msg_EditRevisions_ImgUpload" xml:space="preserve">
+    <value>Imagen subida satisfactoriamente</value>
+  </data>
+  <data name="msg_EditRevisions_RevisionID" xml:space="preserve">
+    <value>ID de revisión no es correcto. Por favor selecciona la revisión de nuevo</value>
+  </data>
+  <data name="msg_EditRevisions_SelectImage" xml:space="preserve">
+    <value>Por favor, selecciona una imagen para continuar..</value>
+  </data>
+  <data name="msg_EditRevisions_SelectNcontinue" xml:space="preserve">
+    <value>Por favor, selecciona una imagen para continuar..</value>
+  </data>
+  <data name="msg_EditUser_Successfully" xml:space="preserve">
+    <value> exitosamente</value>
+  </data>
+  <data name="msg_EditUser_UpdatedPrivi" xml:space="preserve">
+    <value>Privilegios y permisos actualizados correctamente</value>
+  </data>
+  <data name="msg_EditUser_UpdateUser" xml:space="preserve">
+    <value>Actualizar al usuario:</value>
+  </data>
+  <data name="msg_EditUser_WaitForAdmin" xml:space="preserve">
+    <value>Esperando que el Admin apruebe el usuario actualizado:</value>
+  </data>
+  <data name="msg_GlobalConfigurations_ContactITteam" xml:space="preserve">
+    <value>No se puede actualizar porque tiene dos o más registros relacionados por el proveedor. Póngase en contacto con el equipo de TI.</value>
+  </data>
+  <data name="msg_GlobalConfigurations_DistributionList" xml:space="preserve">
+    <value>Cambio de lista de distribución con éxito</value>
+  </data>
+  <data name="msg_GlobalConfigurations_IcorrectoORempty" xml:space="preserve">
+    <value>El formato del valor es incorrecto o vacío</value>
+  </data>
+  <data name="msg_GlobalConfigurations_NewIVA" xml:space="preserve">
+    <value>Insertar nuevo IVA:</value>
+  </data>
+  <data name="msg_GlobalConfigurations_Record" xml:space="preserve">
+    <value>El registro</value>
+  </data>
+  <data name="msg_GlobalConfigurations_UpdateIVA" xml:space="preserve">
+    <value>Se actualizo el IVA a:</value>
+  </data>
+  <data name="msg_MaintenanceI_ActivityID" xml:space="preserve">
+    <value>ID de actividad: </value>
+  </data>
+  <data name="msg_MaintenanceI_ActivitySuccessfully" xml:space="preserve">
+    <value>Actividad ejecutada satisfactoriamente</value>
+  </data>
+  <data name="msg_MaintenanceI_ExecutedSuccessfully" xml:space="preserve">
+    <value> Ejecutado satisfactoriamente</value>
+  </data>
+  <data name="msg_MaintenanceI_RevisionChecked" xml:space="preserve">
+    <value>Esta revisión contiene ítems que no se han revisado. Por favor actualiza la revisión para continuar.</value>
+  </data>
+  <data name="msg_MaintenanceI_SelectBus" xml:space="preserve">
+    <value>Seleccionar camión/conductor</value>
+  </data>
+  <data name="msg_MaintenanceI_SelectRoute" xml:space="preserve">
+    <value>Seleccionar ruta</value>
+  </data>
+  <data name="msg_MaintenanceI_SelectShift" xml:space="preserve">
+    <value>Seleccionar turno</value>
+  </data>
+  <data name="msg_MaintenanceI_SelectV" xml:space="preserve">
+    <value>Seleccionar proveedor</value>
+  </data>
+  <data name="msg_MaintenanceProgram_AddedAlert" xml:space="preserve">
+    <value>Alerta agregada para el camión: </value>
+  </data>
+  <data name="msg_MaintenanceProgram_successfully" xml:space="preserve">
+    <value> satisfactoria</value>
+  </data>
+  <data name="msg_MenuPortal_Bus_ID" xml:space="preserve">
+    <value>-  camión : </value>
+  </data>
+  <data name="msg_MenuPortal_Date" xml:space="preserve">
+    <value>Fecha:  </value>
+  </data>
+  <data name="msg_MenuPortal_NoResults" xml:space="preserve">
+    <value>No existen resultados que mostrar</value>
+  </data>
+  <data name="msg_MenuPortal_Revision" xml:space="preserve">
+    <value>Revision:  </value>
+  </data>
+  <data name="msg_MenuPortal_Status" xml:space="preserve">
+    <value>Estatus:  </value>
+  </data>
+  <data name="msg_MenuPortal_Vendor" xml:space="preserve">
+    <value>Proveedor  </value>
+  </data>
+  <data name="msg_NewRol_AddedRole" xml:space="preserve">
+    <value>Rol agregado:</value>
+  </data>
+  <data name="msg_NewRol_CannotRemove" xml:space="preserve">
+    <value>Usuario(s), no se puede remover el rol!</value>
+  </data>
+  <data name="msg_NewRol_ConfirmPrivileges" xml:space="preserve">
+    <value>Exitoso, por favor confirma los permisos y privilegios</value>
+  </data>
+  <data name="msg_NewRol_Have" xml:space="preserve">
+    <value>tiene</value>
+  </data>
+  <data name="msg_NewRol_PrivilegesUpdatedSuccrssfully" xml:space="preserve">
+    <value>Permisos y privilegios actualizados exitosamente</value>
+  </data>
+  <data name="msg_NewRol_RemoveRole" xml:space="preserve">
+    <value>Quitar el rol:</value>
+  </data>
+  <data name="msg_NewRol_Successfully" xml:space="preserve">
+    <value>Exitoso</value>
+  </data>
+  <data name="msg_NewRol_TheRole" xml:space="preserve">
+    <value>El rol:</value>
+  </data>
+  <data name="msg_NewUser_AddedUser" xml:space="preserve">
+    <value>Usuario agregado:</value>
+  </data>
+  <data name="msg_NewUser_ConfirmPermissions" xml:space="preserve">
+    <value>por favor confirma permisos y privilegios</value>
+  </data>
+  <data name="msg_NewUse_FielNotSelectValues" xml:space="preserve">
+    <value>El campo de rol no tienen seleccionado ningún valor</value>
+  </data>
+  <data name="msg_NewUse_NotHaveSelectedValues" xml:space="preserve">
+    <value>El campo de proveedor no tiene seleccionado ningún valor</value>
+  </data>
+  <data name="msg_NewUse_PrivilegesUpdated" xml:space="preserve">
+    <value>Permisos y privilegios actualizados exitosamente</value>
+  </data>
+  <data name="msg_UserSettings_Account" xml:space="preserve">
+    <value>Cuenta:</value>
+  </data>
+  <data name="msg_UserSettings_ChangeCorrectly" xml:space="preserve">
+    <value> - Contraseña cambiada correctamente</value>
+  </data>
+  <data name="msg_UserSettings_ChangeCorrectlyEmail" xml:space="preserve">
+    <value> - Cambio de correo electrónico correcto</value>
+  </data>
+  <data name="msg_UserSettings_ColorHasBenChanged" xml:space="preserve">
+    <value>El color se cambió por esta sesión</value>
+  </data>
+  <data name="msg_UserSettings_DeleteCorrectlyAccount" xml:space="preserve">
+    <value> -Eliminada correctamente</value>
+  </data>
+  <data name="msg_UserSettings_EmailShouldBeDifferent" xml:space="preserve">
+    <value>El nuevo correo electrónico debe ser diferente al correo electrónico actual.</value>
+  </data>
+  <data name="msg_UserSettings_LanguageDefault" xml:space="preserve">
+    <value>Idioma predeterminado: ES</value>
+  </data>
+  <data name="msg_UserSettings_LanguageHasBenChangedEN" xml:space="preserve">
+    <value>El lenguaje se cambió por esta sesión: EN</value>
+  </data>
+  <data name="msg_UserSettings_LanguageHasBenChangedES" xml:space="preserve">
+    <value>El lenguaje se cambió por esta sesión: ES</value>
+  </data>
+  <data name="msg_UserSettings_ShouldBeDifferent" xml:space="preserve">
+    <value>La nueva contraseña debe ser diferente a su contraseña actual</value>
+  </data>
+  <data name="msg_UserSettings_ThemeColorDefault" xml:space="preserve">
+    <value>Tema de color: predeterminado</value>
+  </data>
+  <data name="msg_UserSettings_ThemeNLan" xml:space="preserve">
+    <value> &amp; Tema de color: predeterminado</value>
+  </data>
+  <data name="msg_UserSettings_User" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="msg_ViewUsers_ItemDeleted" xml:space="preserve">
+    <value>Ítem eliminado exitosamente</value>
+  </data>
+  <data name="REV_ChangePassword_CaseLetters" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="REV_ChangePassword_CaseLetters1" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="REV_EditUser_Email" xml:space="preserve">
+    <value>Formato de correo electronico invalido</value>
+  </data>
+  <data name="REV_EditUser_Telephone" xml:space="preserve">
+    <value>Ingresa un numero de telefono valido (10 digitos)</value>
+  </data>
+  <data name="REV_EditUser_UserName" xml:space="preserve">
+    <value>ID de BMS requiere almenos 3 caracteres</value>
+  </data>
+  <data name="REV_GlobalConfigurations_Alerts" xml:space="preserve">
+    <value>Dirección invalida</value>
+  </data>
+  <data name="REV_GlobalConfigurations_Catalogs" xml:space="preserve">
+    <value>Dirección invalida</value>
+  </data>
+  <data name="REV_GlobalConfigurations_DailyOperation" xml:space="preserve">
+    <value>Dirección invalida</value>
+  </data>
+  <data name="REV_GlobalConfigurations_Maintenance" xml:space="preserve">
+    <value>Dirección invalida</value>
+  </data>
+  <data name="REV_NewRol_1" xml:space="preserve">
+    <value>ID de BMS requiere almenos 3 caracteres</value>
+  </data>
+  <data name="REV_NewUser_Email" xml:space="preserve">
+    <value>Formato de correo electrónico</value>
+  </data>
+  <data name="REV_NewUser_Password" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="REV_NewUser_Telephone" xml:space="preserve">
+    <value>Ingresa un numero de teléfono valido (10 dígitos)</value>
+  </data>
+  <data name="REV_NewUser_UserName" xml:space="preserve">
+    <value>ID de BMS requiere al menos 3 caracteres</value>
+  </data>
+  <data name="REV_UserSettings_ConfirmPassword" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="REV_UserSettings_NewEmail" xml:space="preserve">
+    <value>Correo electrónico invalido</value>
+  </data>
+  <data name="REV_UserSettings_NewPassword" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="RV_ChangePassword_ConfirmPassword" xml:space="preserve">
+    <value>confirma contraseña requerida</value>
+  </data>
+  <data name="RV_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Nueva contraseña requerida</value>
+  </data>
+  <data name="RV_EditUser_BirthDate" xml:space="preserve">
+    <value>Fecha de nacimiento es requeridA</value>
+  </data>
+  <data name="RV_EditUser_BMSID" xml:space="preserve">
+    <value>Nombre de usuario es requerido</value>
+  </data>
+  <data name="RV_EditUser_CompleteName" xml:space="preserve">
+    <value>Nombre es requerido</value>
+  </data>
+  <data name="RV_EditUser_Email" xml:space="preserve">
+    <value>Correo electronico es requerido</value>
+  </data>
+  <data name="RV_EditUser_ExpirationPassword" xml:space="preserve">
+    <value>Expiracion es requerida</value>
+  </data>
+  <data name="RV_EditUser_HireDate" xml:space="preserve">
+    <value>Fecha de contratacion es requerida</value>
+  </data>
+  <data name="RV_EditUser_Role" xml:space="preserve">
+    <value>Rol es requerido</value>
+  </data>
+  <data name="RV_EditUser_Telephone" xml:space="preserve">
+    <value>Telefono es requerido</value>
+  </data>
+  <data name="RV_EditUser_Vendor" xml:space="preserve">
+    <value>Proveedor es requerido</value>
+  </data>
+  <data name="RV_MaintenanceProgramExpiration" xml:space="preserve">
+    <value>Insertar Fecha de expiración.</value>
+  </data>
+  <data name="RV_MaintenanceProgram_Alert" xml:space="preserve">
+    <value>Insertar nombre de la alerta.</value>
+  </data>
+  <data name="RV_MaintenanceProgram_BusID" xml:space="preserve">
+    <value>Insertar ID de camión.</value>
+  </data>
+  <data name="RV_MaintenanceProgram_Comments" xml:space="preserve">
+    <value>Insertar comentarios.</value>
+  </data>
+  <data name="RV_MaintenanceProgram_Priority" xml:space="preserve">
+    <value>Insertar prioridad.</value>
+  </data>
+  <data name="RV_MaintenanceProgram_VendorID" xml:space="preserve">
+    <value>Insertar ID de proveedor.</value>
+  </data>
+  <data name="RV_NewRol_1" xml:space="preserve">
+    <value>ID de rol es requerido</value>
+  </data>
+  <data name="RV_NewUser_Birthdate" xml:space="preserve">
+    <value>Fecha de nacimiento es requerida</value>
+  </data>
+  <data name="RV_NewUser_Email" xml:space="preserve">
+    <value>Correo electrónico es requerido</value>
+  </data>
+  <data name="RV_NewUser_Expiration" xml:space="preserve">
+    <value>Expiración es requerida</value>
+  </data>
+  <data name="RV_NewUser_HireDate" xml:space="preserve">
+    <value>Fecha de contratación es requerida</value>
+  </data>
+  <data name="RV_NewUser_Name" xml:space="preserve">
+    <value>Nombre es requerido</value>
+  </data>
+  <data name="RV_NewUser_Password" xml:space="preserve">
+    <value>Contraseña es requerida</value>
+  </data>
+  <data name="RV_NewUser_Role" xml:space="preserve">
+    <value>Rol es requerido</value>
+  </data>
+  <data name="RV_NewUser_Telephone" xml:space="preserve">
+    <value>Teléfono es requerido</value>
+  </data>
+  <data name="RV_NewUser_Username" xml:space="preserve">
+    <value>Nombre de usuario requerido</value>
+  </data>
+  <data name="RV_NewUser_Vendor" xml:space="preserve">
+    <value>Proveedor es requerido</value>
+  </data>
+  <data name="VS_EditUser" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="VS_NewRol" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="VS_NewUser" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="btAddComment" xml:space="preserve">
+    <value>Agregar comentario</value>
+  </data>
+  <data name="btAlertDetail" xml:space="preserve">
+    <value>Bajo Alerta</value>
+  </data>
+  <data name="btCancelCH1" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btCancelCH2" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btCancelOperation" xml:space="preserve">
+    <value>Cancelar operacion diaria</value>
+  </data>
+  <data name="btChange" xml:space="preserve">
+    <value>Cambiar turno</value>
+  </data>
+  <data name="btChangeStatus" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btClose1" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btConfirmOperation" xml:space="preserve">
+    <value>Confirmar operacion diaria</value>
+  </data>
+  <data name="btExcel1" xml:space="preserve">
+    <value>Exportar a Excel</value>
+  </data>
+  <data name="btInactiveDetail" xml:space="preserve">
+    <value>Inactivos/Bloqueados</value>
+  </data>
+  <data name="btLoadData" xml:space="preserve">
+    <value>Cargar datos</value>
+  </data>
+  <data name="btnApply" xml:space="preserve">
+    <value>Aplicar filtros</value>
+  </data>
+  <data name="btRefreshCH1" xml:space="preserve">
+    <value>Refrescar tabla</value>
+  </data>
+  <data name="btRevisionDetail" xml:space="preserve">
+    <value>Revision</value>
+  </data>
+  <data name="btTransferCH1" xml:space="preserve">
+    <value>Transferir</value>
+  </data>
+  <data name="btTransferCH2" xml:space="preserve">
+    <value>Transferir</value>
+  </data>
+  <data name="bt_Add_Number" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="bt_Load_Data" xml:space="preserve">
+    <value>Cargar informacion</value>
+  </data>
+  <data name="bt_Switch" xml:space="preserve">
+    <value>Cambiar de turno</value>
+  </data>
+  <data name="lbCodeMI" xml:space="preserve">
+    <value>camión/conductor seleccionado:</value>
+  </data>
+  <data name="lbl_ActivitiesAwait_dialogCancel" xml:space="preserve">
+    <value>Esta a punto de cancelar esta actividad. Una vez confirmada , no podra revertir los cambios realizados</value>
+  </data>
+  <data name="lbl_ActivitiesAwait_dialogConfirm" xml:space="preserve">
+    <value>Esta a punto de confirmar esta actividad. Una vez confirmada , no podra revertir los cambios realizados</value>
+  </data>
+  <data name="lbl_Activities_Actions" xml:space="preserve">
+    <value>Acciones</value>
+  </data>
+  <data name="lbl_Activities_Filters" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="lbl_Activities_From" xml:space="preserve">
+    <value>De:</value>
+  </data>
+  <data name="lbl_Activities_Status" xml:space="preserve">
+    <value>Estatus </value>
+  </data>
+  <data name="lbl_Activities_Title" xml:space="preserve">
+    <value>Actividades pendientes de aprobacion</value>
+  </data>
+  <data name="lbl_Activities_TitleWig" xml:space="preserve">
+    <value>Actividades pendientes de aprobacion</value>
+  </data>
+  <data name="lbl_Activities_To" xml:space="preserve">
+    <value>A:</value>
+  </data>
+  <data name="lbl_Activities_Transaction" xml:space="preserve">
+    <value>Transaccion:</value>
+  </data>
+  <data name="lbl_Activities_User" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="lbl_AlerInformation_Action" xml:space="preserve">
+    <value>Accion:</value>
+  </data>
+  <data name="lbl_AlerInformation_Actual" xml:space="preserve">
+    <value>Estatus actual:</value>
+  </data>
+  <data name="lbl_AlerInformation_ActualStatus" xml:space="preserve">
+    <value>Estatus actual:</value>
+  </data>
+  <data name="lbl_AlerInformation_AlertID" xml:space="preserve">
+    <value>ID de alerta:</value>
+  </data>
+  <data name="lbl_AlerInformation_BusID" xml:space="preserve">
+    <value>ID de camión:</value>
+  </data>
+  <data name="lbl_AlerInformation_Closed" xml:space="preserve">
+    <value>Cerrado por:</value>
+  </data>
+  <data name="lbl_AlerInformation_Code" xml:space="preserve">
+    <value>Codigo:</value>
+  </data>
+  <data name="lbl_AlerInformation_Comments" xml:space="preserve">
+    <value>Comentarios:</value>
+  </data>
+  <data name="lbl_AlerInformation_CreateDate" xml:space="preserve">
+    <value>Fecha de creacion:</value>
+  </data>
+  <data name="lbl_AlerInformation_Description" xml:space="preserve">
+    <value>Descripcion:</value>
+  </data>
+  <data name="lbl_AlerInformation_DriverID" xml:space="preserve">
+    <value>ID de conductor:</value>
+  </data>
+  <data name="lbl_AlerInformation_LastCheck" xml:space="preserve">
+    <value>Ultima modificacion:</value>
+  </data>
+  <data name="lbl_AlerInformation_NewStatus" xml:space="preserve">
+    <value>Seleccionar un nuevo estatus para esta alerta</value>
+  </data>
+  <data name="lbl_AlerInformation_Priority" xml:space="preserve">
+    <value>Prioridad:</value>
+  </data>
+  <data name="lbl_AlerInformation_Rissed" xml:space="preserve">
+    <value>Levantado por:</value>
+  </data>
+  <data name="lbl_AlerInformation_Select" xml:space="preserve">
+    <value>Seleccionar un nuevo estatus para esta alerta</value>
+  </data>
+  <data name="lbl_AlerInformation_Status" xml:space="preserve">
+    <value>Estatus:</value>
+  </data>
+  <data name="lbl_AlerInformation_VendorID" xml:space="preserve">
+    <value>ID de proveedor:</value>
+  </data>
+  <data name="lbl_AlerInformation_WriteCmts" xml:space="preserve">
+    <value>Escribe tus comentarios:</value>
+  </data>
+  <data name="lbl_Audit_AuditTitle" xml:space="preserve">
+    <value>Auditar</value>
+  </data>
+  <data name="lbl_Audit_breadcrumb" xml:space="preserve">
+    <value>Auditar pasajeros</value>
+  </data>
+  <data name="lbl_Audit_EnterPass" xml:space="preserve">
+    <value>Ingresa el numero de pasajeros</value>
+  </data>
+  <data name="lbl_Audit_SearchID" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_Audit_Shift" xml:space="preserve">
+    <value>Tipo de turno:</value>
+  </data>
+  <data name="lbl_Audit_ShiftInfo" xml:space="preserve">
+    <value>Turno:</value>
+  </data>
+  <data name="lbl_Audit_ShiftName" xml:space="preserve">
+    <value>Nombre de turno:</value>
+  </data>
+  <data name="lbl_Audit_title" xml:space="preserve">
+    <value>Auditar pasajeros</value>
+  </data>
+  <data name="lbl_Audit_Vendor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_Audit_VendorInfo" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_BlackList_msgConfirm" xml:space="preserve">
+    <value>Confirme que desea guardar este elemento</value>
+  </data>
+  <data name="lbl_BusDriver_Confirmation" xml:space="preserve">
+    <value>Esta seguro de realizar esta accion?</value>
+  </data>
+  <data name="lbl_Bus_Comments" xml:space="preserve">
+    <value>Comentarios adicionales:</value>
+  </data>
+  <data name="lbl_Bus_Dialog" xml:space="preserve">
+    <value>Esta seguro de eliminar este registro?</value>
+  </data>
+  <data name="lbl_Bus_Reason" xml:space="preserve">
+    <value>Razon:</value>
+  </data>
+  <data name="lbl_CDriver_Dialog1" xml:space="preserve">
+    <value>Esta seguro de eliminar este registro?</value>
+  </data>
+  <data name="lbl_CDriver_Dialog2" xml:space="preserve">
+    <value>Esta seguro de eliminar este registro?</value>
+  </data>
+  <data name="lbl_CDriver_DialogC1" xml:space="preserve">
+    <value>Esta seguro de certificar esta ruta para este usuario?</value>
+  </data>
+  <data name="lbl_CDriver_DialogC2" xml:space="preserve">
+    <value>Esta seguro de eliminar este ruta para este usuario?</value>
+  </data>
+  <data name="lbl_CDriver_Document" xml:space="preserve">
+    <value>Tipo de documento:</value>
+  </data>
+  <data name="lbl_CDriver_SelectDoc" xml:space="preserve">
+    <value>Selecciona un documento:</value>
+  </data>
+  <data name="lbl_CDriver_TypesDoc" xml:space="preserve">
+    <value>Tipos de archivo soportados: "bmp", "gif", "png", "jpg", "jpeg", "doc", "docx", "xls", "xlsx", "pdf"</value>
+  </data>
+  <data name="lbl_CDriver_ValidationDoc" xml:space="preserve">
+    <value>Archivos no mayores a 5 MB </value>
+  </data>
+  <data name="lbl_C_Alerts_Dialog" xml:space="preserve">
+    <value>Esta seguro que desea eliminar este elemento?</value>
+  </data>
+  <data name="lbl_C_Alerts_VendorFilter" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_C_Shift_Dialog" xml:space="preserve">
+    <value>Confirme que desea eliminar este elemento. Si existe otro registro que haga referencia a esta entrada, la operación de borrado no se realizará</value>
+  </data>
+  <data name="lbl_C_Shift_ServiceCost" xml:space="preserve">
+    <value>Ingrese el costo de los servicios especiales, que será la tarifa que se utilizará en cada factura</value>
+  </data>
+  <data name="lbl_C_Shift_ServiceGroup" xml:space="preserve">
+    <value>Grupo de servicio especial:</value>
+  </data>
+  <data name="lbl_DailyOPeration_10Trips" xml:space="preserve">
+    <value> +10 Viajes</value>
+  </data>
+  <data name="lbl_DailyOPeration_20Trips" xml:space="preserve">
+    <value> +20 Viajes</value>
+  </data>
+  <data name="lbl_DailyOPeration_30Trips" xml:space="preserve">
+    <value>+30 Viajes</value>
+  </data>
+  <data name="lbl_DailyOperation_AlertChangeStatus" xml:space="preserve">
+    <value>para cambiar el estatus</value>
+  </data>
+  <data name="lbl_DailyOperation_AlertPage" xml:space="preserve">
+    <value>Ingresa pagina de alertas</value>
+  </data>
+  <data name="lbl_DailyOperation_AlertSearch" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_DailyOperation_BDRelation" xml:space="preserve">
+    <value>Selecciona una relacion camión/conductor:</value>
+  </data>
+  <data name="lbl_DailyOperation_BDRelation2" xml:space="preserve">
+    <value>Selecciona una relacion camión/conductor:</value>
+  </data>
+  <data name="lbl_DailyOperation_BDSelected" xml:space="preserve">
+    <value>camión/conductor seleccionado:</value>
+  </data>
+  <data name="lbl_DailyOperation_BDSelected2" xml:space="preserve">
+    <value>camión/conductor seleccionado:</value>
+  </data>
+  <data name="lbl_DailyOperation_BusCatalog" xml:space="preserve">
+    <value>Catalogo de camiones</value>
+  </data>
+  <data name="lbl_DailyOPeration_cancelOperation" xml:space="preserve">
+    <value>Esta seguro de cancelar y eliminar todas las entradas para esta operacion diaria?</value>
+  </data>
+  <data name="lbl_DailyOperation_CH1" xml:space="preserve">
+    <value>CheckPoint 1 (Inicio)</value>
+  </data>
+  <data name="lbl_DailyOperation_CH2" xml:space="preserve">
+    <value>CheckPoint 2 (Punto medio)</value>
+  </data>
+  <data name="lbl_DailyOperation_CH3" xml:space="preserve">
+    <value>CheckPoint 3 (Fin)</value>
+  </data>
+  <data name="lbl_DailyOPeration_CHTime" xml:space="preserve">
+    <value>Diferencia de tiempo en Checkpoint</value>
+  </data>
+  <data name="lbl_DailyOPeration_Complete" xml:space="preserve">
+    <value>Elementos completos</value>
+  </data>
+  <data name="lbl_DailyOperation_Confirmation" xml:space="preserve">
+    <value>Confirmacion y cancelacion de la operacion</value>
+  </data>
+  <data name="lbl_DailyOPeration_confirmEndPoint" xml:space="preserve">
+    <value>Esta seguro que quiere finalizar este viaje? Esta operacion no se puede deshacer.</value>
+  </data>
+  <data name="lbl_DailyOPeration_confirmOperation" xml:space="preserve">
+    <value>Esta seguro de confirmar y cerrar todos los viajes para esta operacion diaria?</value>
+  </data>
+  <data name="lbl_DailyOperation_Date" xml:space="preserve">
+    <value>Fecha:</value>
+  </data>
+  <data name="lbl_DailyOPeration_DialogConfirm" xml:space="preserve">
+    <value>Este elemento sera permanentemente eliminado y no podra ser recuperado. </value>
+  </data>
+  <data name="lbl_DailyOperation_DriverCatalog" xml:space="preserve">
+    <value>Catalogo de conductores</value>
+  </data>
+  <data name="lbl_DailyOPeration_Ended" xml:space="preserve">
+    <value>Elementos terminados</value>
+  </data>
+  <data name="lbl_DailyOperation_EnterBDCatalog" xml:space="preserve">
+    <value>Ingresa al catalogo camión-conductor</value>
+  </data>
+  <data name="lbl_DailyOperation_Observation" xml:space="preserve">
+    <value>Lista de observacion camión/conductor</value>
+  </data>
+  <data name="lbl_DailyOperation_or" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="lbl_DailyOperation_Proveedor" xml:space="preserve">
+    <value>Proveedor:</value>
+  </data>
+  <data name="lbl_DailyOperation_RevDetails" xml:space="preserve">
+    <value>Estas son las relaciones camión-conductor bajo revision</value>
+  </data>
+  <data name="lbl_DailyOperation_RevisionAlerts" xml:space="preserve">
+    <value>Pagina de alertas</value>
+  </data>
+  <data name="lbl_DailyOperation_RevisionChange" xml:space="preserve">
+    <value>para cambiar el estatus</value>
+  </data>
+  <data name="lbl_DailyOperation_RevisionOr" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="lbl_DailyOperation_RevisionPage" xml:space="preserve">
+    <value>Ingresa a la pagina de revision</value>
+  </data>
+  <data name="lbl_DailyOperation_Search2" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_DailyOperation_Search3" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_DailyOperation_SearchCH1" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_DailyOperation_SearchID" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_DailyOperation_SearchRD" xml:space="preserve">
+    <value>Buscar:</value>
+  </data>
+  <data name="lbl_DailyOperation_Selreason" xml:space="preserve">
+    <value>Por favor selecciona una razon:</value>
+  </data>
+  <data name="lbl_DailyOperation_Selreason2" xml:space="preserve">
+    <value>Por favor selecciona una razon:</value>
+  </data>
+  <data name="lbl_DailyOperation_Shift" xml:space="preserve">
+    <value>Turno:</value>
+  </data>
+  <data name="lbl_DailyOperation_Title" xml:space="preserve">
+    <value>Daily Operation (Operacion diaria)</value>
+  </data>
+  <data name="lbl_DailyOperation_toChangeStatus" xml:space="preserve">
+    <value>para cambiar el estatus</value>
+  </data>
+  <data name="lbl_DailyOPeration_transferConfirm" xml:space="preserve">
+    <value>Si transbordas este viaje a otra relacion camión-conductor , no podras revertir los cambios realizados</value>
+  </data>
+  <data name="lbl_DailyOPeration_Transfered" xml:space="preserve">
+    <value>Elementos transferidos</value>
+  </data>
+  <data name="lbl_DailyOperation_Warning" xml:space="preserve">
+    <value>Cuidado!</value>
+  </data>
+  <data name="lbl_DailyOperation_WarningAD" xml:space="preserve">
+    <value>Cuidado!</value>
+  </data>
+  <data name="lbl_DailyOperation_WarningDesc" xml:space="preserve">
+    <value>Estas son las relaciones camión-conductor inactivas o bloqueadas</value>
+  </data>
+  <data name="lbl_DailyOperation_WarningDetails" xml:space="preserve">
+    <value>Estas son las relaciones conductor-camión que se encuentran bajo alerta</value>
+  </data>
+  <data name="lbl_DailyOperation_WarningRD" xml:space="preserve">
+    <value>Cuidado!</value>
+  </data>
+  <data name="lbl_DailyOperation_WriteCmts" xml:space="preserve">
+    <value>Por favor escribe tus comentarios:</value>
+  </data>
+  <data name="lbl_DailyOperation_WriteCmts2" xml:space="preserve">
+    <value>Por favor escribe tus comentarios:</value>
+  </data>
+  <data name="lbl_DailySchedule_Available" xml:space="preserve">
+    <value>Turnos disponibles</value>
+  </data>
+  <data name="lbl_DailySchedule_Shift" xml:space="preserve">
+    <value>Tipo de turno:</value>
+  </data>
+  <data name="lbl_DailySchedule_ShiftName" xml:space="preserve">
+    <value>Nombre de turno:</value>
+  </data>
+  <data name="lbl_DailySchedule_Title" xml:space="preserve">
+    <value>Modulo Daily Schedule Template (Plantilla de viajes diarios)</value>
+  </data>
+  <data name="lbl_DailySchedule_Vendor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="lbl_DailySchedule_Widget" xml:space="preserve">
+    <value>Plantilla del turno</value>
+  </data>
+  <data name="lbl_DST_ConfirmDialog" xml:space="preserve">
+    <value>Este elemento sera eliminado permanentemente y no podra ser recuperado.</value>
+  </data>
+  <data name="lbl_DST_DeleteDialog" xml:space="preserve">
+    <value>Esta seguro que desea eliminar este elemento?</value>
+  </data>
+  <data name="lbl_Fare_Delete" xml:space="preserve">
+    <value>Esta seguro que desea eliminar el registro seleccionado?</value>
+  </data>
+  <data name="lbl_Route_Dialog" xml:space="preserve">
+    <value>Esta seguro de eliminar este registro?</value>
+  </data>
+  <data name="lbl_Service_Confirmation" xml:space="preserve">
+    <value>Esta seguro de eliminar este registro?</value>
+  </data>
+  <data name="lbl_StopPoint_Dialog" xml:space="preserve">
+    <value>Esta seguro que desea eliminar este registro?</value>
+  </data>
+  <data name="lbl_Vendor_Dialog" xml:space="preserve">
+    <value>Esta seguro que desea eliminar este registro?</value>
+  </data>
+  <data name="msg_ActivitiesAwait_ActivityID" xml:space="preserve">
+    <value>La actividad con ID:</value>
+  </data>
+  <data name="msg_ActivitiesAwait_Canceled" xml:space="preserve">
+    <value>fue cancelada</value>
+  </data>
+  <data name="msg_ActivitiesAwait_Executed" xml:space="preserve">
+    <value>ejecutada correctamente</value>
+  </data>
+  <data name="msg_ActivitiesAwait_NotExecuted" xml:space="preserve">
+    <value>Esta accion no fue ejecutada</value>
+  </data>
+  <data name="msg_ActivitiesAwait_Processed" xml:space="preserve">
+    <value>ha sido procesada</value>
+  </data>
+  <data name="msg_AlertInformation_Error" xml:space="preserve">
+    <value>Un error inesperado ha ocurrido , favor de re-abrir la ventana nuevamente</value>
+  </data>
+  <data name="msg_AlertInformation_NoPermission" xml:space="preserve">
+    <value>No tienes permisos para realizar esta accion</value>
+  </data>
+  <data name="msg_AlertInformation_NoRecords" xml:space="preserve">
+    <value>No se encontraron registros para mostrar</value>
+  </data>
+  <data name="msg_AlertInformation_StatusChanged" xml:space="preserve">
+    <value>El estatus fue cambiado exitosamente</value>
+  </data>
+  <data name="msg_Audit_Updated" xml:space="preserve">
+    <value>Actualizado correctamente</value>
+  </data>
+  <data name="msg_Blacklist_CommstsEmpty" xml:space="preserve">
+    <value>No puedes dejar en blanco los comentarios o la razon</value>
+  </data>
+  <data name="msg_Blacklist_InsertSuccess" xml:space="preserve">
+    <value>Elemento agregado a la lista negra correctamente</value>
+  </data>
+  <data name="msg_Blacklist_SelecBus" xml:space="preserve">
+    <value>Selcciona camión</value>
+  </data>
+  <data name="msg_Blacklist_SelecBusDriver" xml:space="preserve">
+    <value>Selecciona camión conductor</value>
+  </data>
+  <data name="msg_Blacklist_SelecDriver" xml:space="preserve">
+    <value>Selecciona Conductor</value>
+  </data>
+  <data name="msg_Blacklist_SelecShift" xml:space="preserve">
+    <value>Selecciona Turno</value>
+  </data>
+  <data name="msg_Blacklist_SelecVendor" xml:space="preserve">
+    <value>Selecciona Proveedor</value>
+  </data>
+  <data name="msg_Blacklist_UpdateSuccess" xml:space="preserve">
+    <value>Actualización ejecutada correctamente</value>
+  </data>
+  <data name="msg_BusDriver_Driver" xml:space="preserve">
+    <value>con el conductor:</value>
+  </data>
+  <data name="msg_BusDriver_LinkBus" xml:space="preserve">
+    <value>Se ha enlazado el camión:</value>
+  </data>
+  <data name="msg_BusDriver_NewBus" xml:space="preserve">
+    <value>Nueva relacion camión-conductor ha sido agregada:</value>
+  </data>
+  <data name="msg_BusDriver_NoChanges" xml:space="preserve">
+    <value>No hubieron cambios por realizar</value>
+  </data>
+  <data name="msg_BusDriver_Updated" xml:space="preserve">
+    <value>Se actualizo la siguiente relacion camión-conductor</value>
+  </data>
+  <data name="msg_BusDriver_Waitting" xml:space="preserve">
+    <value>Esperando la aprobacion de un administrador para la accion en la relacion Bus-Driver:</value>
+  </data>
+  <data name="msg_Bus_Added" xml:space="preserve">
+    <value>Se agrego el ID de camión:</value>
+  </data>
+  <data name="msg_Bus_BlacklistDel" xml:space="preserve">
+    <value>El camión seleccionado ha sido eliminado de la tabla de Blacklist</value>
+  </data>
+  <data name="msg_Bus_BlaclistInsr" xml:space="preserve">
+    <value>El camión seleccionado ha sido insertado en la tabla de BlackList</value>
+  </data>
+  <data name="msg_Bus_Deleted" xml:space="preserve">
+    <value>ID de camión eliminado:</value>
+  </data>
+  <data name="msg_Bus_NoChanges" xml:space="preserve">
+    <value>No hubieron cambios por realizar</value>
+  </data>
+  <data name="msg_Bus_NoDrivers" xml:space="preserve">
+    <value>No hay conductores registrados</value>
+  </data>
+  <data name="msg_Bus_NoPermission" xml:space="preserve">
+    <value>No tienes permisos para cambiar este valor</value>
+  </data>
+  <data name="msg_Bus_Update" xml:space="preserve">
+    <value>ID de camión actualizado:</value>
+  </data>
+  <data name="msg_Bus_Waitting" xml:space="preserve">
+    <value>Esperando la aprobacion de esta accion por un administrador</value>
+  </data>
+  <data name="msg_Calert_Added" xml:space="preserve">
+    <value>Alerta agregada:</value>
+  </data>
+  <data name="msg_Calert_NoChanges" xml:space="preserve">
+    <value>No hubieron cambios por hacer</value>
+  </data>
+  <data name="msg_Calert_Success" xml:space="preserve">
+    <value>correctamente</value>
+  </data>
+  <data name="msg_Calert_Updated" xml:space="preserve">
+    <value>Alerta actualizada:</value>
+  </data>
+  <data name="msg_Calert_Watting" xml:space="preserve">
+    <value>Esperando la aprobacion de un administrador para la alerta:</value>
+  </data>
+  <data name="msg_CdriverBLDeleted" xml:space="preserve">
+    <value>Se elimino este conductor de la lista negra</value>
+  </data>
+  <data name="msg_Cdriver_Added" xml:space="preserve">
+    <value>Se ha agregado el siguiente conductor de forma correcta:</value>
+  </data>
+  <data name="msg_Cdriver_BLInsert" xml:space="preserve">
+    <value>Se agrego este conductor a la lista negra</value>
+  </data>
+  <data name="msg_Cdriver_CertiExists" xml:space="preserve">
+    <value>El usuario ya esta certificado en la ruta seleccionada</value>
+  </data>
+  <data name="msg_Cdriver_Deleted" xml:space="preserve">
+    <value>Se ha eliminado correctamente el siguiente conductor:</value>
+  </data>
+  <data name="msg_Cdriver_ErrorBL" xml:space="preserve">
+    <value>Ocurrio un error al guardar el conductor en la lista negra</value>
+  </data>
+  <data name="msg_Cdriver_ExistsFile" xml:space="preserve">
+    <value>Ya existe un archivo subido con el mismo nomnbre. Favor de renombrar el archivo</value>
+  </data>
+  <data name="msg_Cdriver_ExtensionDoc" xml:space="preserve">
+    <value>Favor de subir un archivo con extension correcta</value>
+  </data>
+  <data name="msg_Cdriver_FileDeleted" xml:space="preserve">
+    <value>Archivo eliminado correctamente</value>
+  </data>
+  <data name="msg_Cdriver_FileSize" xml:space="preserve">
+    <value>El tamaño maximo del archivo a subir son 5 MB</value>
+  </data>
+  <data name="msg_Cdriver_NoChanges" xml:space="preserve">
+    <value>No hubieron cambios por realizar</value>
+  </data>
+  <data name="msg_Cdriver_NoDrivers" xml:space="preserve">
+    <value>No hay conductores registrados</value>
+  </data>
+  <data name="msg_Cdriver_NoFile" xml:space="preserve">
+    <value>Es necesario seleccionar un archivo</value>
+  </data>
+  <data name="msg_Cdriver_NoPermission" xml:space="preserve">
+    <value>No tienes permisos para cambiar este valor</value>
+  </data>
+  <data name="msg_Cdriver_NoSelected" xml:space="preserve">
+    <value>No se ha seleccionado ningun Driver</value>
+  </data>
+  <data name="msg_Cdriver_Update" xml:space="preserve">
+    <value>Se ha actualizado el siguiente conductor de forma correcta:</value>
+  </data>
+  <data name="msg_Cdriver_UploadOK" xml:space="preserve">
+    <value>El archivo se subio correctamente</value>
+  </data>
+  <data name="msg_Cdriver_Waitting" xml:space="preserve">
+    <value>Esperando la aprobacion de un administrador para realizar esta accion sobre el conductor</value>
+  </data>
+  <data name="msg_C_Shift_AddedShift" xml:space="preserve">
+    <value>Turno Agregado: </value>
+  </data>
+  <data name="msg_C_Shift_DeletedShift" xml:space="preserve">
+    <value>Turno Borrado: </value>
+  </data>
+  <data name="msg_C_Shift_NoChanges" xml:space="preserve">
+    <value>No se hicieron cambios</value>
+  </data>
+  <data name="msg_C_Shift_SpecialService" xml:space="preserve">
+    <value>Se requiere nombre del turno especial y el costo unitario</value>
+  </data>
+  <data name="msg_C_Shift_UnitCost" xml:space="preserve">
+    <value>No se capturó el costo unitario para el nuevo turno especial, por favor introduce un costo unitario</value>
+  </data>
+  <data name="msg_C_Shift_UpdatedShift" xml:space="preserve">
+    <value>Turno Actualizado: </value>
+  </data>
+  <data name="msg_DailyOperation_btAddHeader" xml:space="preserve">
+    <value>Agregado a la operacion diaria correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_btCancelOperation" xml:space="preserve">
+    <value>Operacion diaria cancelada correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_btCancelOperation2" xml:space="preserve">
+    <value>La cancelacion de esta operacion esta pendiente de ser aprobada por un administrador. Proveedor:</value>
+  </data>
+  <data name="msg_DailyOperation_btCancelOperation3" xml:space="preserve">
+    <value>Esperando la aprobacion de esta operacion por un administrador</value>
+  </data>
+  <data name="msg_DailyOperation_btConfirmOperation" xml:space="preserve">
+    <value>Operacion diaria cerrada correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_btConfirmOperation2" xml:space="preserve">
+    <value>Esta operacion diaria esta pendiente de aprobacion por un administrador. Proveedor:</value>
+  </data>
+  <data name="msg_DailyOperation_btConfirmOperation5" xml:space="preserve">
+    <value>Esta operacion diaria esta pendiente de ser aprobada o cancelada , por favor contactate al administrador</value>
+  </data>
+  <data name="msg_DailyOperation_btConfirmOperationEmail" xml:space="preserve">
+    <value>Correo electronico enviado correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_btConfirmOperationOk" xml:space="preserve">
+    <value>Esta operacion esta en espera de una aprobacion por el administrador</value>
+  </data>
+  <data name="msg_DailyOperation_btDelete" xml:space="preserve">
+    <value>Elemento eliminado correctamente </value>
+  </data>
+  <data name="msg_DailyOperation_btEndPoint" xml:space="preserve">
+    <value>La ruta ha sido marcada como terminada</value>
+  </data>
+  <data name="msg_DailyOperation_btEndPoint2" xml:space="preserve">
+    <value>La cantidad de pasajeros es mayor a 0. Por favor , use la opcion de transbordo.</value>
+  </data>
+  <data name="msg_DailyOperation_btTransferCH1" xml:space="preserve">
+    <value>Elemento actualizado correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_btTransferCH2" xml:space="preserve">
+    <value>Elemento actualizado correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_CH1RowDeleting" xml:space="preserve">
+    <value>Elemento eliminado correctamente </value>
+  </data>
+  <data name="msg_DailyOperation_CH1RowDeleting2" xml:space="preserve">
+    <value>Este viaje no puede ser eliminado porque tiene pasajeros. Por favor seleccione la opcion de transbordo</value>
+  </data>
+  <data name="msg_DailyOperation_CH1RowUpdating" xml:space="preserve">
+    <value>Elemento actualizado correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_CH2RowUpdating" xml:space="preserve">
+    <value>La hora introducida es menor o igual a la hora de inicio del viaje. Por favor introduzca una hora valida.</value>
+  </data>
+  <data name="msg_DailyOperation_CH2RowUpdating2" xml:space="preserve">
+    <value>Elemento actualizado correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_CH3RowUpdating" xml:space="preserve">
+    <value>La hora introducida es menor o igual a la hora indicada en el Checkpoint2. Por favor , introduzca una hora correcta.</value>
+  </data>
+  <data name="msg_DailyOperation_CH3RowUpdating2" xml:space="preserve">
+    <value>Elemento actualizado correctamente</value>
+  </data>
+  <data name="msg_DailyOperation_Refresh1" xml:space="preserve">
+    <value>Informacion del CheckPoint 1 refrescada correctamente </value>
+  </data>
+  <data name="msg_DailyOperation_Refresh2" xml:space="preserve">
+    <value>Informacion del CheckPoint 2 refrescada correctamente </value>
+  </data>
+  <data name="msg_DailyOperation_Refresh3" xml:space="preserve">
+    <value>Informacion del CheckPoint 2 refrescada correctamente </value>
+  </data>
+  <data name="msg_DailyOperation_reload" xml:space="preserve">
+    <value>Por favor , recargue esta pagina y ejecute nuevamente la accion</value>
+  </data>
+  <data name="msg_DailyOperation_selectShift" xml:space="preserve">
+    <value>Debes seleccionar un turno para realizar esta operacion</value>
+  </data>
+  <data name="msg_DailyOperation_shift" xml:space="preserve">
+    <value>turno:</value>
+  </data>
+  <data name="msg_DST_AddedTemplate" xml:space="preserve">
+    <value>Elemento agregado correctamente</value>
+  </data>
+  <data name="msg_DST_Deleted" xml:space="preserve">
+    <value>Elemento eliminado correctamente</value>
+  </data>
+  <data name="msg_DST_Updated" xml:space="preserve">
+    <value>Plantilla actualizada correctamente</value>
+  </data>
+  <data name="msg_Fare_Add" xml:space="preserve">
+    <value>Se agrego correctamente la tarifa</value>
+  </data>
+  <data name="msg_Fare_AddService" xml:space="preserve">
+    <value>Se debe de agregar un servicio primero</value>
+  </data>
+  <data name="msg_Fare_Delete" xml:space="preserve">
+    <value>Se elimino correctamente la tarifa:</value>
+  </data>
+  <data name="msg_Fare_Update" xml:space="preserve">
+    <value>Se actualizo correctamente la tarifa:</value>
+  </data>
+  <data name="msg_Route_Add" xml:space="preserve">
+    <value>La siguiente ruta fue agregada de forma correcta:</value>
+  </data>
+  <data name="msg_Route_Delete" xml:space="preserve">
+    <value>La siguiente ruta fue eliminada de forma correcta:</value>
+  </data>
+  <data name="msg_Route_NoChanges" xml:space="preserve">
+    <value>No hubieron cambios que realizar</value>
+  </data>
+  <data name="msg_Route_Updated" xml:space="preserve">
+    <value>La siguientes ruta fue actualizada de forma correcta:</value>
+  </data>
+  <data name="msg_Service_Add" xml:space="preserve">
+    <value>Se agrego correctamente el servicio:</value>
+  </data>
+  <data name="msg_Service_Delete" xml:space="preserve">
+    <value>Se elimino correctamente el servicio:</value>
+  </data>
+  <data name="msg_Service_Update" xml:space="preserve">
+    <value>Se actualizo correctamente el servicio:</value>
+  </data>
+  <data name="msg_StopPoint_Add" xml:space="preserve">
+    <value>Se agrego correctamente el siguiente punto de parada:</value>
+  </data>
+  <data name="msg_StopPoint_Deleted" xml:space="preserve">
+    <value>Se elimino correctamente el siguiente punto de parada:</value>
+  </data>
+  <data name="msg_StopPoint_Update" xml:space="preserve">
+    <value>Se actualizo correctamente el siguiente punto de parada:</value>
+  </data>
+  <data name="msg_Vendor_Add" xml:space="preserve">
+    <value>Se agrego el siguiente proveedor correctamente:</value>
+  </data>
+  <data name="msg_Vendor_Delete" xml:space="preserve">
+    <value>Se elimino el siguiente proveedor correctamente:</value>
+  </data>
+  <data name="msg_Vendor_Update" xml:space="preserve">
+    <value>Se actualizo el siguiente proveedor correctamente:</value>
+  </data>
+  <data name="RV_Blacklist_txt_Comments" xml:space="preserve">
+    <value>Los comentarios son obligatorios</value>
+  </data>
+  <data name="RV_Blacklist_txt_Reason" xml:space="preserve">
+    <value>La razón es obligatoria</value>
+  </data>
+  <data name="RV_C_Shift_ID" xml:space="preserve">
+    <value>Introduce el ID del turno.</value>
+  </data>
+  <data name="RV_C_Shift_InvoiceGroup" xml:space="preserve">
+    <value>Introduce el grupo de factura</value>
+  </data>
+  <data name="RV_C_Shift_Name" xml:space="preserve">
+    <value>Introduce el nombre del turno</value>
+  </data>
+  <data name="RV_C_Shift_SpecialService" xml:space="preserve">
+    <value>Introduce el nombre del turno especial</value>
+  </data>
+  <data name="RV_C_Shift_Time" xml:space="preserve">
+    <value>Se requiere el tiempo de inicio</value>
+  </data>
+  <data name="RV_C_Shift_unitCost" xml:space="preserve">
+    <value>Introduce el costo unitario del servicio especial</value>
+  </data>
+  <data name="val_BusDriver_cbBusIdR" xml:space="preserve">
+    <value>Por favor seleccione un camión</value>
+  </data>
+  <data name="val_BusDriver_cbDriverIdR" xml:space="preserve">
+    <value>Por favor seleccione un conductor</value>
+  </data>
+  <data name="val_BusDriver_cbShiftIDR" xml:space="preserve">
+    <value>Por favor seleccione  un turno</value>
+  </data>
+  <data name="val_BusDriver_cbVendorR" xml:space="preserve">
+    <value>Por favor seleccione un Proveedor</value>
+  </data>
+  <data name="val_BusDriver_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores:</value>
+  </data>
+  <data name="val_Bus_BLComments" xml:space="preserve">
+    <value>Ingresa tus comentarios</value>
+  </data>
+  <data name="val_Bus_BLReason" xml:space="preserve">
+    <value>Ingrese una razon:</value>
+  </data>
+  <data name="val_Bus_BusID" xml:space="preserve">
+    <value>ID de camión es requerido</value>
+  </data>
+  <data name="val_Bus_BusIDInvalid" xml:space="preserve">
+    <value>ID de camión tiene caracteres invalidos</value>
+  </data>
+  <data name="val_Bus_Capacity" xml:space="preserve">
+    <value>Ingrese la capacidad</value>
+  </data>
+  <data name="val_Bus_CapacityNumber" xml:space="preserve">
+    <value>El valor debe de ser un numero entero</value>
+  </data>
+  <data name="val_Bus_GPS" xml:space="preserve">
+    <value>Ingrese el GPS ID</value>
+  </data>
+  <data name="val_Bus_License" xml:space="preserve">
+    <value>Ingrese las placas del camión</value>
+  </data>
+  <data name="val_Bus_Line" xml:space="preserve">
+    <value>Ingrese una linea </value>
+  </data>
+  <data name="val_Bus_Maker" xml:space="preserve">
+    <value>Ingrese un fabricante</value>
+  </data>
+  <data name="val_Bus_Vendor" xml:space="preserve">
+    <value>Seleccione un proveedor</value>
+  </data>
+  <data name="val_Bus_VIN" xml:space="preserve">
+    <value>VIN es requerido</value>
+  </data>
+  <data name="val_CAlert_cbAlertItem" xml:space="preserve">
+    <value>Elemento de alerta es requerido</value>
+  </data>
+  <data name="val_CAlert_cbPriority" xml:space="preserve">
+    <value>Prioridad es requerida</value>
+  </data>
+  <data name="val_CAlert_cbVendor" xml:space="preserve">
+    <value>Por favor seleccione un proveedor</value>
+  </data>
+  <data name="val_CAlert_tbAction" xml:space="preserve">
+    <value>El campo de Accion es requerido</value>
+  </data>
+  <data name="val_CAlert_tbDescription" xml:space="preserve">
+    <value>La descripcion es requerida</value>
+  </data>
+  <data name="val_CAlert_tbPeriod" xml:space="preserve">
+    <value>Periodo es requerido</value>
+  </data>
+  <data name="val_CDriver_cbVendor2R" xml:space="preserve">
+    <value>Seleccione un Vendor</value>
+  </data>
+  <data name="val_CDriver_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores</value>
+  </data>
+  <data name="val_CDriver_tbAddress" xml:space="preserve">
+    <value>Ingrese una direccion valida</value>
+  </data>
+  <data name="val_CDriver_tbBirthdateR" xml:space="preserve">
+    <value>Ingrese fecha de nacimimiento del conductor</value>
+  </data>
+  <data name="val_CDriver_tbComments" xml:space="preserve">
+    <value>Ingrese sus comentarios</value>
+  </data>
+  <data name="val_CDriver_tbHireDateR" xml:space="preserve">
+    <value>Ingrese fecha de contratacion</value>
+  </data>
+  <data name="val_CDriver_tbLicenseExpR" xml:space="preserve">
+    <value>Es necesario ingresar una fecha de expiracion de la licencia</value>
+  </data>
+  <data name="val_CDriver_tbLicenseNo" xml:space="preserve">
+    <value>Numero de licencia es necesario</value>
+  </data>
+  <data name="val_CDriver_tbName" xml:space="preserve">
+    <value>Ingrese nombre del conductor</value>
+  </data>
+  <data name="val_CDriver_tbReasons" xml:space="preserve">
+    <value>Ingrese una razon</value>
+  </data>
+  <data name="val_CDriver_tbTelephone" xml:space="preserve">
+    <value>Ingrese un numero telefonico</value>
+  </data>
+  <data name="val_DailyOperation_rFcbBusDriverHeader" xml:space="preserve">
+    <value>Relacion Camion-conductor es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFcbBusDriverEdit" xml:space="preserve">
+    <value>Relacion Camion-conductor es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFcbCheck2Edit" xml:space="preserve">
+    <value>La ruta es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFcbCheck3Edit" xml:space="preserve">
+    <value>La ruta es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFcbRouteHeader" xml:space="preserve">
+    <value>La ruta es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFcbRouteEdit" xml:space="preserve">
+    <value>La ruta es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbCheckPoint2" xml:space="preserve">
+    <value>Hora de CheckPoint es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbCheckPoint3" xml:space="preserve">
+    <value>Hora de Inicio es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbHoraCheck2" xml:space="preserve">
+    <value>Hora de CheckPoint es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbHoraCheckEdit3" xml:space="preserve">
+    <value>Hora de CheckPoint es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbHoraIni2" xml:space="preserve">
+    <value>Hora de Inicio es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbNoPassengers2" xml:space="preserve">
+    <value>Cantidad de pasajeros es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbNoPassengersCheck2" xml:space="preserve">
+    <value>Cantidad de pasajeros es requerida</value>
+  </data>
+  <data name="val_DailyOperation_rFtbNoPassengersCheckEdit3" xml:space="preserve">
+    <value>Cantidad de pasajeros es requerida</value>
+  </data>
+  <data name="val_DailyOperation_valSumAddMode" xml:space="preserve">
+    <value>Los siguientes errores ocurrieron…</value>
+  </data>
+  <data name="val_DailyOperation_valSumEditMode" xml:space="preserve">
+    <value>Los siguientes errores ocurrieron…</value>
+  </data>
+  <data name="val_DailyOperation_vSeditModeCP2" xml:space="preserve">
+    <value>Los siguientes errores ocurrieron…</value>
+  </data>
+  <data name="val_DailyOperation_vSeditModeCP3" xml:space="preserve">
+    <value>Los siguientes errores ocurrieron…</value>
+  </data>
+  <data name="val_Fare_cbService" xml:space="preserve">
+    <value>Servicio es requerido</value>
+  </data>
+  <data name="val_Fare_cbVendor" xml:space="preserve">
+    <value>Proveedor es requerido</value>
+  </data>
+  <data name="val_Fare_summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores:</value>
+  </data>
+  <data name="val_Fare_tbUnitCost" xml:space="preserve">
+    <value>Costo unitario es requerido</value>
+  </data>
+  <data name="val_Route_cbDestination" xml:space="preserve">
+    <value>ID de destino es requerido</value>
+  </data>
+  <data name="val_Route_cbOrigin" xml:space="preserve">
+    <value>ID de origen es requerido</value>
+  </data>
+  <data name="val_Route_cbService" xml:space="preserve">
+    <value>Servicio es requerido</value>
+  </data>
+  <data name="val_Route_ddlZoneID" xml:space="preserve">
+    <value>Zona de ruta es requerida</value>
+  </data>
+  <data name="val_Route_tbRoute" xml:space="preserve">
+    <value>ID de ruta es requerida</value>
+  </data>
+  <data name="val_Route_tbTime" xml:space="preserve">
+    <value>Tiempo de viaje es requerido</value>
+  </data>
+  <data name="val_Service_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores:</value>
+  </data>
+  <data name="val_Service_tbMaxDistance" xml:space="preserve">
+    <value>Distancia maxima es requerida</value>
+  </data>
+  <data name="val_Service_tbMinDistance" xml:space="preserve">
+    <value>Distancia minima es requerida</value>
+  </data>
+  <data name="val_Service_tbName" xml:space="preserve">
+    <value>Nombre del servicio es requerido</value>
+  </data>
+  <data name="val_StopPoint_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores..</value>
+  </data>
+  <data name="val_StopPoint_tbAddress" xml:space="preserve">
+    <value>Direccion es requerida</value>
+  </data>
+  <data name="val_StopPoint_tbCoordinates" xml:space="preserve">
+    <value>Coordenadas son requeridas</value>
+  </data>
+  <data name="val_StopPoint_tbName" xml:space="preserve">
+    <value>Nombre es requerido </value>
+  </data>
+  <data name="val_StopPoint_tbStopID" xml:space="preserve">
+    <value>ID de punto de parada es requerido </value>
+  </data>
+  <data name="val_Vendor_tbAddress" xml:space="preserve">
+    <value>Direccion del proveedor es requerida</value>
+  </data>
+  <data name="val_Vendor_tbBuilding" xml:space="preserve">
+    <value>Nombre de edificio es requerido</value>
+  </data>
+  <data name="val_Vendor_tbContactName" xml:space="preserve">
+    <value>Nombre de contacto es requerido</value>
+  </data>
+  <data name="val_Vendor_tbFirmName" xml:space="preserve">
+    <value>Nombre de firma es requerido</value>
+  </data>
+  <data name="val_Vendor_tbName" xml:space="preserve">
+    <value>Nombre de proveedor es requerido</value>
+  </data>
+  <data name="val_Vendor_tbPhone" xml:space="preserve">
+    <value>Numero telefonico del proveedor es requerido</value>
+  </data>
+  <data name="val_Vendor_tbRFC" xml:space="preserve">
+    <value>RFC es requerido</value>
+  </data>
+  <data name="val_Vendor_tbVendorID" xml:space="preserve">
+    <value>ID de proveedor es requerido</value>
+  </data>
+  <data name="VS_Blacklist_msg" xml:space="preserve">
+    <value>Se produjo un error de seguimiento</value>
+  </data>
+  <data name="vs_Bus_BLSummary" xml:space="preserve">
+    <value>Los siguientes errores han ocurrido</value>
+  </data>
+  <data name="vs_Bus_Summary" xml:space="preserve">
+    <value>Los siguientes errores han ocurrido</value>
+  </data>
+  <data name="vs_CAlert_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="vs_CDriver_Summary2" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="VS_C_Shift" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="VS_C_Shift_Summary2" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="vs_Route_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="vs_Vendor_Summary" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="msg_BusDriver_NoActive" xml:space="preserve">
+    <value>Camón o Conductor deben estar activos</value>
+  </data>
+  <data name="btnUpdate_Route" xml:space="preserve">
+    <value>Actualizar Ruta</value>
+  </data>
+  <data name="btSaveUnitCost" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="lbl_C_Shift_ServiceCost_Emergent" xml:space="preserve">
+    <value>Costo Unitario:</value>
+  </data>
+  <data name="msg_BlackList_BusDriver" xml:space="preserve">
+    <value>Camión/Conductor:</value>
+  </data>
+  <data name="msg_InvalidUser" xml:space="preserve">
+    <value>Usuario Invalido</value>
+  </data>
+  <data name="msg_DailyOperation_needCancel" xml:space="preserve">
+    <value>Esta operacion no cuenta con registros. Cancela la operacion en lugar de cerrarla</value>
+  </data>
+  <data name="msg_DailyOperation_emptyDetail" xml:space="preserve">
+    <value>La operación aún tiene viajes incompletos</value>
+  </data>
+  <data name="btRefreshCH2" xml:space="preserve">
+    <value>Refrescar tabla</value>
+  </data>
+  <data name="btRefreshCH3" xml:space="preserve">
+    <value>Refrescar tabla</value>
+  </data>
+  <data name="REV_UserSettings_ConfirmPassword1" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="REV_UserSettings_NewEmail1" xml:space="preserve">
+    <value>Correo electronico invalido</value>
+  </data>
+  <data name="REV_UserSettings_NewPassword1" xml:space="preserve">
+    <value>La contraseña debe tener al menos una letra mayúscula, una letra minúscula y tener de 6 a 10 letras</value>
+  </data>
+  <data name="RV_UserSettings_ConfirmPassword" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="RV_UserSettings_EnterNewEmail" xml:space="preserve">
+    <value>Correo electronico requerido</value>
+  </data>
+  <data name="RV_UserSettings_NewPassword" xml:space="preserve">
+    <value>Nuevo contraseña requerida</value>
+  </data>
+  <data name="VS_UserSettings_Email" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="VS_UserSettings_Password" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="lbl_Driver_ID_text" xml:space="preserve">
+    <value>ID del conductor:</value>
+  </data>
+  <data name="lbl_Driver_Name" xml:space="preserve">
+    <value>Nombre del conductor:</value>
+  </data>
+  <data name="lbl_Driver_WidgetTitle" xml:space="preserve">
+    <value>Informacion del conductor</value>
+  </data>
+  <data name="lbl_AlertInformation_page" xml:space="preserve">
+    <value>Soporte de Alertas</value>
+  </data>
+  <data name="msg_NoChanges" xml:space="preserve">
+    <value>No se registraron cambios</value>
+  </data>
+  <data name="btUpload" xml:space="preserve">
+    <value>Subir documento</value>
+  </data>
+  <data name="FileUpload1" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="lnkDelete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="lnkDownload" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="val_Bus_VendorAll" xml:space="preserve">
+    <value>Proveedor es requerido</value>
+  </data>
+  <data name="val_Driver_VendorAll" xml:space="preserve">
+    <value>Proveedor es requerido</value>
+  </data>
+  <data name="val_Maintenance_VendorAll" xml:space="preserve">
+    <value>Proveedor es requerido</value>
+  </data>
+  <data name="vs_Vendor_Summary1" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores…</value>
+  </data>
+  <data name="lbl_GlobalConfigurations_modifyIVA" xml:space="preserve">
+    <value>Modificar IVA:</value>
+  </data>
+  <data name="lbl_WithEmpty" xml:space="preserve">
+    <value>No se encontraron certificados</value>
+  </data>
+  <data name="msg_DailyOperation_Tooltip1" xml:space="preserve">
+    <value> Horas </value>
+  </data>
+  <data name="msg_DailyOperation_Tooltip2" xml:space="preserve">
+    <value> minutos tarde! </value>
+  </data>
+  <data name="lbl_C_Route_Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lbl_C_Route_Zone" xml:space="preserve">
+    <value>Zona</value>
+  </data>
+  <data name="msg_AlertInformation_addComment" xml:space="preserve">
+    <value>Comentarios agregados correctamente</value>
+  </data>
+  <data name="lblAddcomment" xml:space="preserve">
+    <value>Agregar nuevo comentario</value>
+  </data>
+  <data name="lblComments_Title" xml:space="preserve">
+    <value>Comentarios de seguimiento</value>
+  </data>
+  <data name="btChangePicture" xml:space="preserve">
+    <value>Cambiar foto</value>
+  </data>
+  <data name="btDeleteProfilePicture" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btProfilePicture" xml:space="preserve">
+    <value>Foto de perfil</value>
+  </data>
+  <data name="btUploadProfilePicture" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="lbl_C_Driver_WidgetTitle_ProfilePicture" xml:space="preserve">
+    <value>Foto de perfil</value>
+  </data>
+  <data name="msg_Cdriver_ExtensionPicture" xml:space="preserve">
+    <value>Solamente los siguientes formatos:  "gif", "png", "jpg", "jpeg"</value>
+  </data>
+  <data name="msg_Fare_NoDelete" xml:space="preserve">
+    <value>Tarifa en uso, no puede ser eliminada</value>
+  </data>
+  <data name="lbl_CDriver_TypesPic" xml:space="preserve">
+    <value>Tipos de archivo soportados: "bmp", "gif", "png", "jpg", "jpeg"</value>
+  </data>
+  <data name="lbl_CDriver_ValidationPic" xml:space="preserve">
+    <value>Archivos no mayores a 5 MB</value>
+  </data>
+  <data name="lbl_CDriver_SelectImage" xml:space="preserve">
+    <value>Selecciona una imagen:</value>
+  </data>
+  <data name="btAddToGrid" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="lbl_DST_Camion" xml:space="preserve">
+    <value>Camion/Conductor:</value>
+  </data>
+  <data name="lbl_DST_CheckpointTim" xml:space="preserve">
+    <value>Tiempo Inicio:</value>
+  </data>
+  <data name="lbl_DST_Recorrido" xml:space="preserve">
+    <value>Recorrido:</value>
+  </data>
+  <data name="val_DST_Camion" xml:space="preserve">
+    <value>Relacion Camion/Conductor es requerida</value>
+  </data>
+  <data name="val_DST_Checkpoint" xml:space="preserve">
+    <value>Tiempo de checkpoint es requerido</value>
+  </data>
+  <data name="val_DST_Formato" xml:space="preserve">
+    <value>El formato de tiempo debe ser en 00:00</value>
+  </data>
+  <data name="val_DST_Recorrido" xml:space="preserve">
+    <value>El recorrido o ruta es requerido</value>
+  </data>
+  <data name="val_DO_cbReasons2R" xml:space="preserve">
+    <value>Una razon es requerida</value>
+  </data>
+  <data name="val_DO_Trans_cbReasonsR" xml:space="preserve">
+    <value>Una razon es requerida</value>
+  </data>
+  <data name="val_DO_Trans_cbTransferCH1R" xml:space="preserve">
+    <value>Relacion camion-conductor es requerida</value>
+  </data>
+  <data name="val_DO_Trans_cbTransferCH2R" xml:space="preserve">
+    <value>Relacion camion-conductor es requerida</value>
+  </data>
+  <data name="val_DO_Trans_tbCommentsTCH1" xml:space="preserve">
+    <value>Comentarios son requeridos</value>
+  </data>
+  <data name="val_DO_Trans_tbCommentsTCH2R" xml:space="preserve">
+    <value>Comentarios son requeridos</value>
+  </data>
+  <data name="val_Sum_Trans_CH1" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores.....</value>
+  </data>
+  <data name="val_Sum_Trans_CH2" xml:space="preserve">
+    <value>Ocurrieron los siguientes errores.....</value>
+  </data>
+  <data name="lbl_DO_Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="val_NewUser_Integer" xml:space="preserve">
+    <value>Solo puedes ingresar valores enteros</value>
+  </data>
+  <data name="val_CDriver_Integer" xml:space="preserve">
+    <value>Este campo solo puede llevar numeros</value>
+  </data>
+  <data name="lbl_DailyOperation_ConfirmShift" xml:space="preserve">
+    <value>Por favor confirme que desea cargar el turno seleccionado</value>
+  </data>
+  <data name="msg_DailyOperation_Tooltip3" xml:space="preserve">
+    <value>minutos antes!</value>
+  </data>
+</root>

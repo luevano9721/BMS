@@ -1,0 +1,1423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{821BDC25-D0ED-42EA-B8CD-292CB9575C7E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusManagementSystem</RootNamespace>
+    <AssemblyName>BusManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.DynamicProxy">
+      <HintPath>dll\Castle.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>dll\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.Common">
+      <HintPath>dll\IBatisNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.Common.Logging.Log4Net">
+      <HintPath>dll\IBatisNet.Common.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.DataMapper">
+      <HintPath>dll\IBatisNet.DataMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WebForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Activities\Alerts_Log.aspx" />
+    <Content Include="Activities\Audit_Passengers.aspx" />
+    <Content Include="Administration\GlobalConfigurations.aspx" />
+    <Content Include="Administration\New_Rol.aspx" />
+    <Content Include="BlackList\BlackList.aspx" />
+    <Content Include="BrowserNotSupported.html" />
+    <Content Include="Catalogos\C_Alerts.aspx" />
+    <Content Include="Catalogos\C_Bus.aspx" />
+    <Content Include="Catalogos\C_BusDriver.aspx" />
+    <Content Include="Catalogos\C_Fare.aspx" />
+    <Content Include="Catalogos\C_Route.aspx" />
+    <Content Include="Catalogos\C_Service.aspx" />
+    <Content Include="Catalogos\C_Shift.aspx" />
+    <Content Include="Catalogos\C_Stop_Point.aspx" />
+    <Content Include="Catalogos\C_Vendor.aspx" />
+    <Content Include="Catalogos\C_Driver.aspx" />
+    <Content Include="Catalogos\ExportToExcel.aspx" />
+    <Content Include="Administration\ChangePassword.aspx" />
+    <Content Include="css\chosen-sprite.png" />
+    <Content Include="css\chosen.css" />
+    <Content Include="css\docsupport\chosen.png" />
+    <Content Include="css\docsupport\init.js" />
+    <Content Include="css\docsupport\init.proto.js" />
+    <Content Include="css\docsupport\oss-credit.png" />
+    <Content Include="css\docsupport\prism.css" />
+    <Content Include="css\docsupport\prism.js" />
+    <Content Include="css\docsupport\style.css" />
+    <Content Include="css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="css\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="css\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="css\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="css\jquery-ui.structure.css" />
+    <Content Include="css\jquery-ui.theme.css" />
+    <Content Include="Administration\Edit_User.aspx" />
+    <Content Include="dll\Castle.DynamicProxy.dll" />
+    <Content Include="dll\Castle.DynamicProxy.license.txt" />
+    <Content Include="dll\Common.dll" />
+    <Content Include="dll\ibatis.licence.txt" />
+    <Content Include="dll\IBatisNet.Common.dll" />
+    <Content Include="dll\IBatisNet.Common.Logging.Log4Net.dll" />
+    <Content Include="dll\IBatisNet.Common.Logging.Log4Net.xml" />
+    <Content Include="dll\IBatisNet.Common.xml" />
+    <Content Include="dll\IBatisNet.DataMapper.dll" />
+    <Content Include="dll\IBatisNet.DataMapper.xml" />
+    <Content Include="dll\log4net.dll" />
+    <Content Include="dll\log4net.license.txt" />
+    <Content Include="dll\log4net.xml" />
+    <Content Include="Documentation\Activities_Awaiting.aspx" />
+    <Content Include="Documentation\Alerts.aspx" />
+    <Content Include="Documentation\AlertSupport.aspx" />
+    <Content Include="Documentation\Audit_Historical.aspx" />
+    <Content Include="Documentation\AuditPassengers.aspx" />
+    <Content Include="Documentation\BlackList.aspx" />
+    <Content Include="Documentation\Bus.aspx" />
+    <Content Include="Documentation\BusDriver.aspx" />
+    <Content Include="Documentation\Daily_Operation.aspx" />
+    <Content Include="Documentation\Driver.aspx" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\activitiesAwaiting.png" />
+    <Content Include="Documentation\d_images\add.png" />
+    <Content Include="Documentation\d_images\AlertSupport\addComment.png" />
+    <Content Include="Documentation\d_images\AlertSupport\addComment_Alert.png" />
+    <Content Include="Documentation\d_images\BlackList\BlackListCatalog.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Filtro_Buscar.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Filtro_Categoria.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Filtro_Proveedor.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Grid.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Insertar_ListaNegra.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Select.PNG" />
+    <Content Include="Documentation\d_images\BlackList\Tipo.PNG" />
+    <Content Include="Documentation\d_images\btActualizar.PNG" />
+    <Content Include="Documentation\d_images\Change_password\change_password.PNG" />
+    <Content Include="Documentation\d_images\Change_password\confirmation.PNG" />
+    <Content Include="Documentation\d_images\Change_password\password.PNG" />
+    <Content Include="Documentation\d_images\Change_password\password_error.PNG" />
+    <Content Include="Documentation\d_images\Change_password\save.PNG" />
+    <Content Include="Documentation\d_images\Change_password\select_button.PNG" />
+    <Content Include="Documentation\d_images\Change_password\select_user.PNG" />
+    <Content Include="Documentation\d_images\Change_password\success.PNG" />
+    <Content Include="Documentation\d_images\Change_password\user_details.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_addRecord.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_cambiarturno.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_cancel.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_cargardatos.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_checkpoints.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_confirmation.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_ConfirmEnd.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_description.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Edit.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_EndPoint.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_ExportExcel.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Header.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Infocheckpoint1.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_msgEnd.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_msgOk.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_msgOkTrans.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_nombreturno.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_observacion.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_pagination.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Pasajeros.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_proveedor.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_reasons.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_recordSaved.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Refresh.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_relationTrans.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Route.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_save.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_search.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_selectBD.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_Sort.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_tipoturno.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_transfer.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_transferButton.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\Do_TransferWindow.PNG" />
+    <Content Include="Documentation\d_images\Daily_Operation\DO_turnos.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\bt_ChangeShift.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\bt_load.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Bus_Driver.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\delete.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Load.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Loaded.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Loaded_With_info.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Route.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Time.PNG" />
+    <Content Include="Documentation\d_images\Daily_Schedule_Template\Update.PNG" />
+    <Content Include="Documentation\d_images\Driver\add.png" />
+    <Content Include="Documentation\d_images\Driver\add_certify_route.png" />
+    <Content Include="Documentation\d_images\Driver\add_picture.png" />
+    <Content Include="Documentation\d_images\Driver\add_route.png" />
+    <Content Include="Documentation\d_images\Driver\certify_routes.png" />
+    <Content Include="Documentation\d_images\Driver\delete.png" />
+    <Content Include="Documentation\d_images\Driver\documents.png" />
+    <Content Include="Documentation\d_images\Driver\download.png" />
+    <Content Include="Documentation\d_images\Driver\new_document.png" />
+    <Content Include="Documentation\d_images\Driver\profile.png" />
+    <Content Include="Documentation\d_images\Driver\profile_picture.png" />
+    <Content Include="Documentation\d_images\Driver\remove.png" />
+    <Content Include="Documentation\d_images\Driver\routes.png" />
+    <Content Include="Documentation\d_images\edit.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Check.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Edit_User.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\icono_Editar.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Permisos_Privilegios.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Permisos_Privilegios_Plus.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Permisos_Privilegios_Plus_Plus.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Plus.PNG" />
+    <Content Include="Documentation\d_images\Edit_user\Uncheck.PNG" />
+    <Content Include="Documentation\d_images\Filtro_Buscar.PNG" />
+    <Content Include="Documentation\d_images\Filtro_Proveedor.PNG" />
+    <Content Include="Documentation\d_images\Global_Config\distributionlist.png" />
+    <Content Include="Documentation\d_images\Global_Config\IVA.png" />
+    <Content Include="Documentation\d_images\Invoice_Payment\filter_InvoiceFormat.png" />
+    <Content Include="Documentation\d_images\Invoice_Payment\invoiceFormat.png" />
+    <Content Include="Documentation\d_images\Invoice_Payment\link.png" />
+    <Content Include="Documentation\d_images\Invoice_Payment\Summary.png" />
+    <Content Include="Documentation\d_images\Legal_Revision\check.png" />
+    <Content Include="Documentation\d_images\Legal_Revision\detail.png" />
+    <Content Include="Documentation\d_images\Legal_Revision\imgDetail.png" />
+    <Content Include="Documentation\d_images\Legal_Revision\lens.png" />
+    <Content Include="Documentation\d_images\Legal_Revision\noCheck.png" />
+    <Content Include="Documentation\d_images\Maintenance_Program\Agregar_Maintenance_Program.PNG" />
+    <Content Include="Documentation\d_images\Maintenance_Program\Form.PNG" />
+    <Content Include="Documentation\d_images\Maintenance_Program\Grid.PNG" />
+    <Content Include="Documentation\d_images\Maintenance_Program\Maintenance_Program.PNG" />
+    <Content Include="Documentation\d_images\New_User\add_User.png" />
+    <Content Include="Documentation\d_images\New_User\modify_Pages.png" />
+    <Content Include="Documentation\d_images\New_User\permissions.png" />
+    <Content Include="Documentation\d_images\New_User\updateUser.png" />
+    <Content Include="Documentation\d_images\Revision\add_revision1.png" />
+    <Content Include="Documentation\d_images\Revision\add_revision2.png" />
+    <Content Include="Documentation\d_images\Revision\add_Revision3.png" />
+    <Content Include="Documentation\d_images\Alerts\alerts.png" />
+    <Content Include="Documentation\d_images\AlertSupport\alert_support.png" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\applyfilters.png" />
+    <Content Include="Documentation\d_images\AlertSupport\btAddComment.png" />
+    <Content Include="Documentation\d_images\Bus\bus.png" />
+    <Content Include="Documentation\d_images\buscar.png" />
+    <Content Include="Documentation\d_images\BusDriver\busDriver.png" />
+    <Content Include="Documentation\d_images\cancel.png" />
+    <Content Include="Documentation\d_images\cancelActivity.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\cancel_Audit.png" />
+    <Content Include="Documentation\d_images\Revision\close.png" />
+    <Content Include="Documentation\d_images\Revision\close_Revision.png" />
+    <Content Include="Documentation\d_images\confirm.png" />
+    <Content Include="Documentation\d_images\confirmActivity.png" />
+    <Content Include="Documentation\d_images\confirmationDelete.png" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\dailyoperation_Preview.png" />
+    <Content Include="Documentation\d_images\delete.png" />
+    <Content Include="Documentation\d_images\Driver\driver.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\edit_Audit.png" />
+    <Content Include="Documentation\d_images\Bus\edit_Bus.png" />
+    <Content Include="Documentation\d_images\BusDriver\edit_BusDriver.png" />
+    <Content Include="Documentation\d_images\Driver\edit_Driver.png" />
+    <Content Include="Documentation\d_images\Fare\edit_Fare.png" />
+    <Content Include="Documentation\d_images\Revision\edit_Revision.png" />
+    <Content Include="Documentation\d_images\Rol\btSavePermisions.PNG" />
+    <Content Include="Documentation\d_images\Rol\Delete_Rol.PNG" />
+    <Content Include="Documentation\d_images\Rol\New_Rol.PNG" />
+    <Content Include="Documentation\d_images\Rol\new_Rol_Add.PNG" />
+    <Content Include="Documentation\d_images\Rol\Permisions_N_privileges.PNG" />
+    <Content Include="Documentation\d_images\Rol\Privileges.PNG" />
+    <Content Include="Documentation\d_images\Rol\Roles.PNG" />
+    <Content Include="Documentation\d_images\Route\edit_Route.png" />
+    <Content Include="Documentation\d_images\Route\filter_Route.png" />
+    <Content Include="Documentation\d_images\Service\edit_service.png" />
+    <Content Include="Documentation\d_images\StopPoint\edit_StopPoint.png" />
+    <Content Include="Documentation\d_images\Users\confirmation.PNG" />
+    <Content Include="Documentation\d_images\Users\delete_users.PNG" />
+    <Content Include="Documentation\d_images\Users\edit_users.PNG" />
+    <Content Include="Documentation\d_images\Users\msg_successful.PNG" />
+    <Content Include="Documentation\d_images\Users\view_users.PNG" />
+    <Content Include="Documentation\d_images\User_settings\apply_configuration.PNG" />
+    <Content Include="Documentation\d_images\User_settings\apply_session.PNG" />
+    <Content Include="Documentation\d_images\User_settings\cambiar_color.PNG" />
+    <Content Include="Documentation\d_images\User_settings\cambiar_email.PNG" />
+    <Content Include="Documentation\d_images\User_settings\cambiar_pass.PNG" />
+    <Content Include="Documentation\d_images\User_settings\colors.PNG" />
+    <Content Include="Documentation\d_images\User_settings\idioma.PNG" />
+    <Content Include="Documentation\d_images\User_settings\restablecer_button.PNG" />
+    <Content Include="Documentation\d_images\User_settings\save_button.PNG" />
+    <Content Include="Documentation\d_images\User_settings\user_settings.PNG" />
+    <Content Include="Documentation\d_images\Vendor\edit_Vendor.png" />
+    <Content Include="Documentation\d_images\AlertSupport\endAlert.png" />
+    <Content Include="Documentation\d_images\AlertSupport\end_Alert.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\enterValue_Audit.png" />
+    <Content Include="Documentation\d_images\Fare\error2_Fare.png" />
+    <Content Include="Documentation\d_images\Revision\errorClose.png" />
+    <Content Include="Documentation\d_images\errorReference.png" />
+    <Content Include="Documentation\d_images\Driver\error_Driver.png" />
+    <Content Include="Documentation\d_images\Fare\error_Fare.png" />
+    <Content Include="Documentation\d_images\exampleEdit.png" />
+    <Content Include="Documentation\d_images\exampleFilter1.png" />
+    <Content Include="Documentation\d_images\exampleFilter2.png" />
+    <Content Include="Documentation\d_images\exampleSelect.png" />
+    <Content Include="Documentation\d_images\excel.png" />
+    <Content Include="Documentation\d_images\Fare\Fare.png" />
+    <Content Include="Documentation\d_images\filter1.png" />
+    <Content Include="Documentation\d_images\filter2.png" />
+    <Content Include="Documentation\d_images\filterActive_Bus.png" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\filterDate_Alerts.png" />
+    <Content Include="Documentation\d_images\filterInactive_Bus.png" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\filterStatus_Alerts.png" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\filterTransaction_Alerts.png" />
+    <Content Include="Documentation\d_images\Activities_Awaiting\filterUsers_Alerts.png" />
+    <Content Include="Documentation\d_images\AlertSupport\filter_AlertSupport.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\filter_Audit1.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\filter_Audit2.png" />
+    <Content Include="Documentation\d_images\BusDriver\filter_BusDriver.png" />
+    <Content Include="Documentation\d_images\image.png" />
+    <Content Include="Documentation\d_images\insert.png" />
+    <Content Include="Documentation\d_images\lens.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\loadInfo.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\load_audit.png" />
+    <Content Include="Documentation\d_images\magnifier.png" />
+    <Content Include="Documentation\d_images\AlertSupport\moreInfo_Alert.png" />
+    <Content Include="Documentation\d_images\AlertSupport\more_Info.png" />
+    <Content Include="Documentation\d_images\Alerts\new_Alert.png" />
+    <Content Include="Documentation\d_images\Bus\new_Bus.png" />
+    <Content Include="Documentation\d_images\mainPage.png" />
+    <Content Include="Documentation\d_images\menu.png" />
+    <Content Include="Documentation\d_images\BusDriver\new_BusDriver.png" />
+    <Content Include="Documentation\d_images\Driver\new_Driver.png" />
+    <Content Include="Documentation\d_images\Fare\new_fare.png" />
+    <Content Include="Documentation\d_images\Revision\new_Revision.png" />
+    <Content Include="Documentation\d_images\Route\new_Route.png" />
+    <Content Include="Documentation\d_images\Service\new_Service.png" />
+    <Content Include="Documentation\d_images\StopPoint\new_StopPoint.png" />
+    <Content Include="Documentation\d_images\Vendor\new_Vendor.png" />
+    <Content Include="Documentation\d_images\noChanges.png" />
+    <Content Include="Documentation\d_images\reset.png" />
+    <Content Include="Documentation\d_images\Revision\revision.png" />
+    <Content Include="Documentation\d_images\Revision\filter_Revision.png" />
+    <Content Include="Documentation\d_images\Revision\revision_note.png" />
+    <Content Include="Documentation\d_images\Route\route.png" />
+    <Content Include="Documentation\d_images\save.png" />
+    <Content Include="Documentation\d_images\AuditPassengers\save_Audit.png" />
+    <Content Include="Documentation\d_images\select.png" />
+    <Content Include="Documentation\d_images\Revision\select_all.png" />
+    <Content Include="Documentation\d_images\Service\service.png" />
+    <Content Include="Documentation\d_images\StopPoint\stoppoint.png" />
+    <Content Include="Documentation\d_images\successAdd.png" />
+    <Content Include="Documentation\d_images\successClose.png" />
+    <Content Include="Documentation\d_images\successDelete.png" />
+    <Content Include="Documentation\d_images\successUpdate.png" />
+    <Content Include="Documentation\d_images\AlertSupport\takeAction.png" />
+    <Content Include="Documentation\d_images\AlertSupport\takeAction_Alert.png" />
+    <Content Include="Documentation\d_images\toggle.png" />
+    <Content Include="Documentation\d_images\Revision\upload_image.png" />
+    <Content Include="Documentation\d_images\validation.png" />
+    <Content Include="Documentation\d_images\Vendor\vendor.png" />
+    <Content Include="Documentation\d_images\warningAdmin.png" />
+    <Content Include="Documentation\Edit_User.aspx" />
+    <Content Include="Documentation\Fare.aspx" />
+    <Content Include="Documentation\GeneralUse.aspx" />
+    <Content Include="Documentation\Maintenance_Program.aspx" />
+    <Content Include="Documentation\Revision.aspx" />
+    <Content Include="Documentation\Route.aspx" />
+    <Content Include="Documentation\Service.aspx" />
+    <Content Include="Documentation\StopPoint.aspx" />
+    <Content Include="Documentation\Daily_Schedule_Template.aspx" />
+    <Content Include="Documentation\User.aspx" />
+    <Content Include="Documentation\New_User.aspx" />
+    <Content Include="Documentation\Change_Password.aspx" />
+    <Content Include="Documentation\Role.aspx" />
+    <Content Include="Documentation\Global_Configuration.aspx" />
+    <Content Include="Documentation\User_Settings.aspx" />
+    <Content Include="Documentation\Activity_Log_Report.aspx" />
+    <Content Include="Documentation\Bus_Standard_Report.aspx" />
+    <Content Include="Documentation\Certify_Routes.aspx" />
+    <Content Include="Documentation\Daily_Operation_Report.aspx" />
+    <Content Include="Documentation\Historical_BlackList.aspx" />
+    <Content Include="Documentation\Historical_Alerts.aspx" />
+    <Content Include="Documentation\Historical_Invoice.aspx" />
+    <Content Include="Documentation\Historical_Revisions.aspx" />
+    <Content Include="Documentation\Invoice_Payment_Format.aspx" />
+    <Content Include="Documentation\Legal_Revision_Report.aspx" />
+    <Content Include="Documentation\System_Close_Report.aspx" />
+    <Content Include="Documentation\Historical_Maintenance.aspx" />
+    <Content Include="Documentation\Buses_Pgs_Overtime_Report.aspx" />
+    <Content Include="Documentation\Daily_Operation_Changes.aspx" />
+    <Content Include="Documentation\Historical_Users.aspx" />
+    <Content Include="Documentation\Vendors.aspx" />
+    <Content Include="EmailTemplates\approveActivity.txt" />
+    <Content Include="EmailTemplates\approveWaiting.txt" />
+    <Content Include="EmailTemplates\resetPassBody.txt" />
+    <Content Include="EmailTemplates\statusAction.txt" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="images\add_comments.png" />
+    <Content Include="images\browsers.png" />
+    <Content Include="images\cancel-edit.png" />
+    <Content Include="images\cancel-edit1.png" />
+    <Content Include="images\change_status.png" />
+    <Content Include="images\Confirm-alert.png" />
+    <Content Include="images\delete-bus.png" />
+    <Content Include="images\delete-bus1.png" />
+    <Content Include="images\edit-bus.png" />
+    <Content Include="images\edit-bus1.png" />
+    <Content Include="images\EndPoint.png" />
+    <Content Include="images\eye_2-128.png" />
+    <Content Include="images\image-not-found.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\magnifier.png" />
+    <Content Include="images\more_info.png" />
+    <Content Include="images\Processing.gif" />
+    <Content Include="images\ring.gif" />
+    <Content Include="Administration\New_User.aspx" />
+    <Content Include="images\save.png" />
+    <Content Include="images\save1.png" />
+    <Content Include="images\transfer.png" />
+    <Content Include="images\transfer1.png" />
+    <Content Include="images\upload-image.png" />
+    <Content Include="images\warning.png" />
+    <Content Include="img\add1.png" />
+    <Content Include="img\chosen-sprite.png" />
+    <Content Include="img\Delete.png" />
+    <Content Include="img\hue.png" />
+    <Content Include="img\saturation.png" />
+    <Content Include="js\chosen.jquery.js" />
+    <Content Include="Maintenance\EditRevision.aspx" />
+    <Content Include="Maintenance\Maintenace_Program.aspx" />
+    <Content Include="Maintenance\Maintenance_I.aspx" />
+    <Content Include="Reportes\R_ActivityLog.aspx" />
+    <Content Include="Reportes\R_Audit.aspx" />
+    <Content Include="Reportes\R_BusStandard.aspx" />
+    <Content Include="Reportes\R_CertifiedRoutes.aspx" />
+    <Content Include="Reportes\R_DailyOperation.aspx" />
+    <Content Include="Activities\Activities_Awaiting.aspx" />
+    <Content Include="Activities\Daily_Operation.aspx" />
+    <Content Include="Activities\Daily_Schedule_Template.aspx" />
+    <Content Include="css\BMS-login.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap-wysihtml5.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\colorpicker.css" />
+    <Content Include="css\component.css" />
+    <Content Include="css\cssGeneral.css" />
+    <Content Include="css\datepicker.css" />
+    <Content Include="css\eFoxPortal.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\fullcalendar.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery.easy-pie-chart.css" />
+    <Content Include="css\jquery.gritter.css" />
+    <Content Include="css\jquery.timepicker.css" />
+    <Content Include="css\matrix-login.css" />
+    <Content Include="css\matrix-media.css" />
+    <Content Include="css\matrix-style.css" />
+    <Content Include="css\select2.css" />
+    <Content Include="css\timepicki.css" />
+    <Content Include="css\uniform.css" />
+    <Content Include="font-awesome\css\font-awesome.css" />
+    <Content Include="images\1.png" />
+    <Content Include="images\2.png" />
+    <Content Include="images\3.png" />
+    <Content Include="images\a.png" />
+    <Content Include="images\amazon_logo.png" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\blurred.jpg" />
+    <Content Include="images\bus.png" />
+    <Content Include="images\bus2.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\confirm.png" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\delete_user.png" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\foxconn.jpg" />
+    <Content Include="images\foxconn1.png" />
+    <Content Include="images\FoxconnLogo.jpg" />
+    <Content Include="images\FoxconnLogo1.png" />
+    <Content Include="images\loginlogo.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logoprueba.png" />
+    <Content Include="images\password.png" />
+    <Content Include="images\privileges.png" />
+    <Content Include="images\reports.jpg" />
+    <Content Include="images\top_arr.png" />
+    <Content Include="img\icons\16\book.png" />
+    <Content Include="img\icons\16\cabinet.png" />
+    <Content Include="img\icons\16\calendar.png" />
+    <Content Include="img\icons\16\client.png" />
+    <Content Include="img\icons\16\database.png" />
+    <Content Include="img\icons\16\download.png" />
+    <Content Include="img\icons\16\graph.png" />
+    <Content Include="img\icons\16\home.png" />
+    <Content Include="img\icons\16\lock.png" />
+    <Content Include="img\icons\16\mail.png" />
+    <Content Include="img\icons\16\pdf.png" />
+    <Content Include="img\icons\16\people.png" />
+    <Content Include="img\icons\16\piechart.png" />
+    <Content Include="img\icons\16\search.png" />
+    <Content Include="img\icons\16\shopping-bag.png" />
+    <Content Include="img\icons\16\survey.png" />
+    <Content Include="img\icons\16\tag.png" />
+    <Content Include="img\icons\16\user.png" />
+    <Content Include="img\icons\16\wallet.png" />
+    <Content Include="img\icons\16\web.png" />
+    <Content Include="img\icons\32\book.png" />
+    <Content Include="img\icons\32\cabinet.png" />
+    <Content Include="img\icons\32\calendar.png" />
+    <Content Include="img\icons\32\client.png" />
+    <Content Include="img\icons\32\dashboard.png" />
+    <Content Include="img\icons\32\database.png" />
+    <Content Include="img\icons\32\download.png" />
+    <Content Include="img\icons\32\graph.png" />
+    <Content Include="img\icons\32\home.png" />
+    <Content Include="img\icons\32\lock.png" />
+    <Content Include="img\icons\32\mail.png" />
+    <Content Include="img\icons\32\pdf.png" />
+    <Content Include="img\icons\32\people.png" />
+    <Content Include="img\icons\32\piechart.png" />
+    <Content Include="img\icons\32\search.png" />
+    <Content Include="img\icons\32\shopping-bag.png" />
+    <Content Include="img\icons\32\survey.png" />
+    <Content Include="img\icons\32\tag.png" />
+    <Content Include="img\icons\32\user.png" />
+    <Content Include="img\icons\32\wallet.png" />
+    <Content Include="img\icons\32\web.png" />
+    <Content Include="img\select2.png" />
+    <Content Include="img\spinner.gif" />
+    <Content Include="img\sprite.png" />
+    <Content Include="js\bootstrap-colorpicker.js" />
+    <Content Include="js\bootstrap-datepicker.js" />
+    <Content Include="js\bootstrap-wysihtml5.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\EasePack.min.js" />
+    <Content Include="js\excanvas.min.js" />
+    <Content Include="js\fullcalendar.min.js" />
+    <Content Include="js\jquery-1.3.2.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.dataTables.min.js" />
+    <Content Include="js\jquery.easy-pie-chart.js" />
+    <Content Include="js\jquery.flot.crosshair.js" />
+    <Content Include="js\jquery.flot.min.js" />
+    <Content Include="js\jquery.flot.pie.js" />
+    <Content Include="js\jquery.flot.pie.min.js" />
+    <Content Include="js\jquery.flot.resize.min.js" />
+    <Content Include="js\jquery.flot.stack.js" />
+    <Content Include="js\jquery.gritter.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.peity.min.js" />
+    <Content Include="js\jquery.placeholder.min.js" />
+    <Content Include="js\jquery.timepicker.js" />
+    <Content Include="js\jquery.timepicker.min.js" />
+    <Content Include="js\jquery.ui.custom.js" />
+    <Content Include="js\jquery.uniform.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\jquery.wizard.js" />
+    <Content Include="js\masked.js" />
+    <Content Include="js\matrix.calendar.js" />
+    <Content Include="js\matrix.charts.js" />
+    <Content Include="js\matrix.chat.js" />
+    <Content Include="js\matrix.dashboard.js" />
+    <Content Include="js\matrix.form_common.js" />
+    <Content Include="js\matrix.form_validation.js" />
+    <Content Include="js\matrix.interface.js" />
+    <Content Include="js\matrix.js" />
+    <Content Include="js\matrix.login.js" />
+    <Content Include="js\matrix.popover.js" />
+    <Content Include="js\matrix.tables.js" />
+    <Content Include="js\matrix.wizard.js" />
+    <Content Include="js\modernizr.custom.63321.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\select2.min.js" />
+    <Content Include="js\timepicki.js" />
+    <Content Include="js\TweenMax.min.js" />
+    <Content Include="js\waypoints.min.js" />
+    <Content Include="js\wysihtml5-0.3.0.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="MenuPortal.aspx" />
+    <Content Include="RecoverPass.aspx" />
+    <Content Include="Reportes\R_HistoricalBlackList.aspx" />
+    <Content Include="Reportes\R_HistoricAlerts.aspx" />
+    <Content Include="Reportes\R_historicalInvoice.aspx" />
+    <Content Include="Reportes\R_HistoricalRevisions.aspx" />
+    <Content Include="Reportes\R_Invoice_Payment.aspx" />
+    <Content Include="Reportes\R_LegalRevision.aspx" />
+    <Content Include="Reportes\R_Operation_Status.aspx" />
+    <Content Include="Reportes\R_RevisionHistorical.aspx" />
+    <Content Include="Reportes\R_TotalBusPsg.aspx" />
+    <Content Include="Reportes\R_Trip_Change.aspx" />
+    <Content Include="Reportes\R_Users.aspx" />
+    <Content Include="ResetPass.aspx" />
+    <Content Include="Administration\View_Users.aspx" />
+    <Content Include="User_Settings.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities\Alerts_Log.aspx.cs">
+      <DependentUpon>Alerts_Log.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities\Alerts_Log.aspx.designer.cs">
+      <DependentUpon>Alerts_Log.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\Audit_Passengers.aspx.cs">
+      <DependentUpon>Audit_Passengers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities\Audit_Passengers.aspx.designer.cs">
+      <DependentUpon>Audit_Passengers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\GlobalConfigurations.aspx.cs">
+      <DependentUpon>GlobalConfigurations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\GlobalConfigurations.aspx.designer.cs">
+      <DependentUpon>GlobalConfigurations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\New_Rol.aspx.cs">
+      <DependentUpon>New_Rol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\New_Rol.aspx.designer.cs">
+      <DependentUpon>New_Rol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlackList\BlackList.aspx.cs">
+      <DependentUpon>BlackList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlackList\BlackList.aspx.designer.cs">
+      <DependentUpon>BlackList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Activities_Log.cs" />
+    <Compile Include="Catalogos\Admin_Approve.cs" />
+    <Compile Include="Catalogos\Alert.cs" />
+    <Compile Include="Catalogos\Alert_Followup.cs" />
+    <Compile Include="Catalogos\Alert_Item.cs" />
+    <Compile Include="Catalogos\Alert_Log.cs" />
+    <Compile Include="Catalogos\Blacklist.cs" />
+    <Compile Include="Catalogos\Cat_Revision.cs" />
+    <Compile Include="Catalogos\Cat_Revision_Case.cs" />
+    <Compile Include="Catalogos\Cat_Revision_Step.cs" />
+    <Compile Include="Catalogos\CERTIFICATE_ROUTE.cs" />
+    <Compile Include="Catalogos\C_Alerts.aspx.cs">
+      <DependentUpon>C_Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Alerts.aspx.designer.cs">
+      <DependentUpon>C_Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_Shift.aspx.cs">
+      <DependentUpon>C_Shift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Shift.aspx.designer.cs">
+      <DependentUpon>C_Shift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Driver_Documents.cs" />
+    <Compile Include="Catalogos\Global_Configuration.cs" />
+    <Compile Include="Catalogos\Legal_Revision.cs" />
+    <Compile Include="Catalogos\Revision.cs" />
+    <Compile Include="Catalogos\Revision_Check.cs" />
+    <Compile Include="Catalogos\Revision_Note.cs" />
+    <Compile Include="Catalogos\Revision_Note_Image.cs" />
+    <Compile Include="Catalogos\System_Error_Log.cs" />
+    <Compile Include="Catalogos\Trigger_Errors.cs" />
+    <Compile Include="Catalogos\Trip_Change_Type.cs" />
+    <Compile Include="Catalogos\Users.cs" />
+    <Compile Include="Catalogos\Bus.cs" />
+    <Compile Include="Catalogos\Bus_Driver.cs" />
+    <Compile Include="Catalogos\C_Bus.aspx.cs">
+      <DependentUpon>C_Bus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Bus.aspx.designer.cs">
+      <DependentUpon>C_Bus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_BusDriver.aspx.cs">
+      <DependentUpon>C_BusDriver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_BusDriver.aspx.designer.cs">
+      <DependentUpon>C_BusDriver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_Fare.aspx.cs">
+      <DependentUpon>C_Fare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Fare.aspx.designer.cs">
+      <DependentUpon>C_Fare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_Route.aspx.cs">
+      <DependentUpon>C_Route.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Route.aspx.designer.cs">
+      <DependentUpon>C_Route.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_Service.aspx.cs">
+      <DependentUpon>C_Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Service.aspx.designer.cs">
+      <DependentUpon>C_Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_Stop_Point.aspx.cs">
+      <DependentUpon>C_Stop_Point.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Stop_Point.aspx.designer.cs">
+      <DependentUpon>C_Stop_Point.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\C_Vendor.aspx.cs">
+      <DependentUpon>C_Vendor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Vendor.aspx.designer.cs">
+      <DependentUpon>C_Vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Dialy_Schedule_Template.cs" />
+    <Compile Include="Catalogos\C_Driver.aspx.cs">
+      <DependentUpon>C_Driver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\C_Driver.aspx.designer.cs">
+      <DependentUpon>C_Driver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Driver.cs" />
+    <Compile Include="Catalogos\ExportToExcel.aspx.cs">
+      <DependentUpon>ExportToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\ExportToExcel.aspx.designer.cs">
+      <DependentUpon>ExportToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Fare.cs" />
+    <Compile Include="Catalogos\Invoice.cs" />
+    <Compile Include="Catalogos\MappingColumns.cs" />
+    <Compile Include="Catalogos\Master_Trip.cs" />
+    <Compile Include="Catalogos\Module.cs" />
+    <Compile Include="Catalogos\Module_Page.cs" />
+    <Compile Include="Catalogos\Module_User.cs" />
+    <Compile Include="Catalogos\Pages.cs" />
+    <Compile Include="Catalogos\Page_Privilege.cs" />
+    <Compile Include="Catalogos\Page_User.cs" />
+    <Compile Include="Catalogos\Privilege.cs" />
+    <Compile Include="Catalogos\Role.cs" />
+    <Compile Include="Catalogos\Rol_Module.cs" />
+    <Compile Include="Catalogos\Rol_User.cs" />
+    <Compile Include="Catalogos\Route.cs" />
+    <Compile Include="Catalogos\Service.cs" />
+    <Compile Include="Catalogos\Shift.cs" />
+    <Compile Include="Catalogos\Stop_Point.cs" />
+    <Compile Include="Catalogos\Trip_Change.cs" />
+    <Compile Include="Catalogos\Trip_Detail.cs" />
+    <Compile Include="Catalogos\Trip_Hrd.cs" />
+    <Compile Include="Catalogos\UsersAndRoles.cs" />
+    <Compile Include="Catalogos\Vendor.cs" />
+    <Compile Include="Administration\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Edit_User.aspx.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Edit_User.aspx.designer.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\New_User.aspx.cs">
+      <DependentUpon>New_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\New_User.aspx.designer.cs">
+      <DependentUpon>New_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Zone.cs" />
+    <Compile Include="Class\AddPrivilege.cs" />
+    <Compile Include="Documentation\Activities_Awaiting.aspx.cs">
+      <DependentUpon>Activities_Awaiting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Activities_Awaiting.aspx.designer.cs">
+      <DependentUpon>Activities_Awaiting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Alerts.aspx.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Alerts.aspx.designer.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\AlertSupport.aspx.cs">
+      <DependentUpon>AlertSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\AlertSupport.aspx.designer.cs">
+      <DependentUpon>AlertSupport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Audit_Historical.aspx.cs">
+      <DependentUpon>Audit_Historical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Audit_Historical.aspx.designer.cs">
+      <DependentUpon>Audit_Historical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\AuditPassengers.aspx.cs">
+      <DependentUpon>AuditPassengers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\AuditPassengers.aspx.designer.cs">
+      <DependentUpon>AuditPassengers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\BlackList.aspx.cs">
+      <DependentUpon>BlackList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\BlackList.aspx.designer.cs">
+      <DependentUpon>BlackList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Bus.aspx.cs">
+      <DependentUpon>Bus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Bus.aspx.designer.cs">
+      <DependentUpon>Bus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\BusDriver.aspx.cs">
+      <DependentUpon>BusDriver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\BusDriver.aspx.designer.cs">
+      <DependentUpon>BusDriver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Daily_Operation.aspx.cs">
+      <DependentUpon>Daily_Operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Daily_Operation.aspx.designer.cs">
+      <DependentUpon>Daily_Operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Driver.aspx.cs">
+      <DependentUpon>Driver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Driver.aspx.designer.cs">
+      <DependentUpon>Driver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Edit_User.aspx.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Edit_User.aspx.designer.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Fare.aspx.cs">
+      <DependentUpon>Fare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Fare.aspx.designer.cs">
+      <DependentUpon>Fare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\GeneralUse.aspx.cs">
+      <DependentUpon>GeneralUse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\GeneralUse.aspx.designer.cs">
+      <DependentUpon>GeneralUse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Maintenance_Program.aspx.cs">
+      <DependentUpon>Maintenance_Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Maintenance_Program.aspx.designer.cs">
+      <DependentUpon>Maintenance_Program.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Revision.aspx.cs">
+      <DependentUpon>Revision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Revision.aspx.designer.cs">
+      <DependentUpon>Revision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Route.aspx.cs">
+      <DependentUpon>Route.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Route.aspx.designer.cs">
+      <DependentUpon>Route.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Service.aspx.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Service.aspx.designer.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\StopPoint.aspx.cs">
+      <DependentUpon>StopPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\StopPoint.aspx.designer.cs">
+      <DependentUpon>StopPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Daily_Schedule_Template.aspx.cs">
+      <DependentUpon>Daily_Schedule_Template.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Daily_Schedule_Template.aspx.designer.cs">
+      <DependentUpon>Daily_Schedule_Template.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\New_User.aspx.cs">
+      <DependentUpon>New_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\New_User.aspx.designer.cs">
+      <DependentUpon>New_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Change_Password.aspx.cs">
+      <DependentUpon>Change_Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Change_Password.aspx.designer.cs">
+      <DependentUpon>Change_Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Role.aspx.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Role.aspx.designer.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Global_Configuration.aspx.cs">
+      <DependentUpon>Global_Configuration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Global_Configuration.aspx.designer.cs">
+      <DependentUpon>Global_Configuration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\User_Settings.aspx.cs">
+      <DependentUpon>User_Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\User_Settings.aspx.designer.cs">
+      <DependentUpon>User_Settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Activity_Log_Report.aspx.cs">
+      <DependentUpon>Activity_Log_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Activity_Log_Report.aspx.designer.cs">
+      <DependentUpon>Activity_Log_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Bus_Standard_Report.aspx.cs">
+      <DependentUpon>Bus_Standard_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Bus_Standard_Report.aspx.designer.cs">
+      <DependentUpon>Bus_Standard_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Certify_Routes.aspx.cs">
+      <DependentUpon>Certify_Routes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Certify_Routes.aspx.designer.cs">
+      <DependentUpon>Certify_Routes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Daily_Operation_Report.aspx.cs">
+      <DependentUpon>Daily_Operation_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Daily_Operation_Report.aspx.designer.cs">
+      <DependentUpon>Daily_Operation_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Historical_BlackList.aspx.cs">
+      <DependentUpon>Historical_BlackList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_BlackList.aspx.designer.cs">
+      <DependentUpon>Historical_BlackList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Historical_Alerts.aspx.cs">
+      <DependentUpon>Historical_Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_Alerts.aspx.designer.cs">
+      <DependentUpon>Historical_Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Historical_Invoice.aspx.cs">
+      <DependentUpon>Historical_Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_Invoice.aspx.designer.cs">
+      <DependentUpon>Historical_Invoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Historical_Revisions.aspx.cs">
+      <DependentUpon>Historical_Revisions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_Revisions.aspx.designer.cs">
+      <DependentUpon>Historical_Revisions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Invoice_Payment_Format.aspx.cs">
+      <DependentUpon>Invoice_Payment_Format.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Invoice_Payment_Format.aspx.designer.cs">
+      <DependentUpon>Invoice_Payment_Format.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Legal_Revision_Report.aspx.cs">
+      <DependentUpon>Legal_Revision_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Legal_Revision_Report.aspx.designer.cs">
+      <DependentUpon>Legal_Revision_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\System_Close_Report.aspx.cs">
+      <DependentUpon>System_Close_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_Maintenance.aspx.cs">
+      <DependentUpon>Historical_Maintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_Maintenance.aspx.designer.cs">
+      <DependentUpon>Historical_Maintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Buses_Pgs_Overtime_Report.aspx.cs">
+      <DependentUpon>Buses_Pgs_Overtime_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Buses_Pgs_Overtime_Report.aspx.designer.cs">
+      <DependentUpon>Buses_Pgs_Overtime_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Daily_Operation_Changes.aspx.cs">
+      <DependentUpon>Daily_Operation_Changes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Daily_Operation_Changes.aspx.designer.cs">
+      <DependentUpon>Daily_Operation_Changes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Historical_Users.aspx.cs">
+      <DependentUpon>Historical_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Historical_Users.aspx.designer.cs">
+      <DependentUpon>Historical_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Vendors.aspx.cs">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documentation\Vendors.aspx.designer.cs">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionUtility.cs" />
+    <Compile Include="Maintenance\EditRevision.aspx.cs">
+      <DependentUpon>EditRevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintenance\EditRevision.aspx.designer.cs">
+      <DependentUpon>EditRevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Maintenace_Program.aspx.cs">
+      <DependentUpon>Maintenace_Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Maintenace_Program.aspx.designer.cs">
+      <DependentUpon>Maintenace_Program.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Maintenance_I.aspx.cs">
+      <DependentUpon>Maintenance_I.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Maintenance_I.aspx.designer.cs">
+      <DependentUpon>Maintenance_I.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_ActivityLog.aspx.cs">
+      <DependentUpon>R_ActivityLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_ActivityLog.aspx.designer.cs">
+      <DependentUpon>R_ActivityLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_Audit.aspx.cs">
+      <DependentUpon>R_Audit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_Audit.aspx.designer.cs">
+      <DependentUpon>R_Audit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_BusStandard.aspx.cs">
+      <DependentUpon>R_BusStandard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_BusStandard.aspx.designer.cs">
+      <DependentUpon>R_BusStandard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_CertifiedRoutes.aspx.cs">
+      <DependentUpon>R_CertifiedRoutes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_CertifiedRoutes.aspx.designer.cs">
+      <DependentUpon>R_CertifiedRoutes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_DailyOperation.aspx.cs">
+      <DependentUpon>R_DailyOperation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_DailyOperation.aspx.designer.cs">
+      <DependentUpon>R_DailyOperation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\Activities_Awaiting.aspx.cs">
+      <DependentUpon>Activities_Awaiting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities\Activities_Awaiting.aspx.designer.cs">
+      <DependentUpon>Activities_Awaiting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\Daily_Operation.aspx.cs">
+      <DependentUpon>Daily_Operation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities\Daily_Operation.aspx.designer.cs">
+      <DependentUpon>Daily_Operation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activities\Daily_Schedule_Template.aspx.cs">
+      <DependentUpon>Daily_Schedule_Template.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activities\Daily_Schedule_Template.aspx.designer.cs">
+      <DependentUpon>Daily_Schedule_Template.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\adminApprove.cs" />
+    <Compile Include="Class\Connection.cs" />
+    <Compile Include="Class\functions.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\GenericClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\ReportCredentials.cs" />
+    <Compile Include="Class\SendEmail.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPortal.aspx.cs">
+      <DependentUpon>MenuPortal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuPortal.aspx.designer.cs">
+      <DependentUpon>MenuPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RecoverPass.aspx.cs">
+      <DependentUpon>RecoverPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecoverPass.aspx.designer.cs">
+      <DependentUpon>RecoverPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_HistoricalBlackList.aspx.cs">
+      <DependentUpon>R_HistoricalBlackList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_HistoricalBlackList.aspx.designer.cs">
+      <DependentUpon>R_HistoricalBlackList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_HistoricAlerts.aspx.cs">
+      <DependentUpon>R_HistoricAlerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_HistoricAlerts.aspx.designer.cs">
+      <DependentUpon>R_HistoricAlerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_historicalInvoice.aspx.cs">
+      <DependentUpon>R_historicalInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_historicalInvoice.aspx.designer.cs">
+      <DependentUpon>R_historicalInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_HistoricalRevisions.aspx.cs">
+      <DependentUpon>R_HistoricalRevisions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_HistoricalRevisions.aspx.designer.cs">
+      <DependentUpon>R_HistoricalRevisions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_Invoice_Payment.aspx.cs">
+      <DependentUpon>R_Invoice_Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_Invoice_Payment.aspx.designer.cs">
+      <DependentUpon>R_Invoice_Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_LegalRevision.aspx.cs">
+      <DependentUpon>R_LegalRevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_LegalRevision.aspx.designer.cs">
+      <DependentUpon>R_LegalRevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_Operation_Status.aspx.cs">
+      <DependentUpon>R_Operation_Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_Operation_Status.aspx.designer.cs">
+      <DependentUpon>R_Operation_Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_RevisionHistorical.aspx.cs">
+      <DependentUpon>R_RevisionHistorical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_RevisionHistorical.aspx.designer.cs">
+      <DependentUpon>R_RevisionHistorical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_TotalBusPsg.aspx.cs">
+      <DependentUpon>R_TotalBusPsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_TotalBusPsg.aspx.designer.cs">
+      <DependentUpon>R_TotalBusPsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_Trip_Change.aspx.cs">
+      <DependentUpon>R_Trip_Change.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_Trip_Change.aspx.designer.cs">
+      <DependentUpon>R_Trip_Change.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\R_Users.aspx.cs">
+      <DependentUpon>R_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\R_Users.aspx.designer.cs">
+      <DependentUpon>R_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPass.aspx.cs">
+      <DependentUpon>ResetPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPass.aspx.designer.cs">
+      <DependentUpon>ResetPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\View_Users.aspx.cs">
+      <DependentUpon>View_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\View_Users.aspx.designer.cs">
+      <DependentUpon>View_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Settings.aspx.cs">
+      <DependentUpon>User_Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Settings.aspx.designer.cs">
+      <DependentUpon>User_Settings.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="font-awesome\fontawesome-webfont.eot" />
+    <Content Include="font-awesome\fontawesome-webfont.svg" />
+    <Content Include="font-awesome\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome\fontawesome-webfont.woff" />
+    <Content Include="font-awesome\FontAwesome.otf" />
+    <Content Include="font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="font-awesome\font\FontAwesome.otf" />
+    <Content Include="dll\iBATIS.NET SDK for .NET 2.0.chm" />
+    <None Include="dll\provider.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="dll\providers.config" />
+    <Content Include="dll\sample.SqlMap.config" />
+    <None Include="dll\SqlMap.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dll\SqlMapConfig.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Eng.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Eng1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Esp.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Esp1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documentation\d_images\AuditHistorical\" />
+    <Folder Include="Documentation\d_images\configuration\" />
+    <Folder Include="Documentation\d_images\GeneralUse\" />
+    <Folder Include="Documentation\d_images\Invoice\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>43194</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+    <title>Navegador no soportado</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.ui.custom.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/matrix.js"></script>
+    <script src="/js/matrix.popover.js"></script>
+    <style>
+        body {
+            background: #e7e8e8;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        #Contenido {
+            margin: auto;
+            width: 50%;
+            border: 3px solid #00bcd4;
+            padding: 10px;
+            margin-top: 10%;
+            background: #ffffff;
+        }
+
+            #Contenido #Message {
+                padding: 10px;
+            }
+
+        .img-browser {
+            padding: 5px;
+        }
+
+        #Contenido h1 {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("p").html("<b>Navegador detectado:</b> <span> Internet Explorer version " + $.browser.version + "</span>");
+        });
+       
+        if ($.support.leadingWhitespace) {
+            window.location.href = 'MenuPortal.aspx';
+        }
+      
+
+    </script>
+
+</head>
+<body>
+    <div id="Contenido">
+        <h1>Navegador no soportado</h1>
+        <img src="images/browsers.png" class="img-browser">
+        <div id="Message">
+            Este navegador esta desactualizado , por ello BMS no funciona de forma correcta en el y no es posible cargar la aplicacion.
+            Es necesario realizar la actualizacion de su navegador a la version mas reciente. Recomendamos la utilizaciobn de Google Chrome.
+            <p></p>
+        </div>
+    
+    </div>
+</body>
+</html>
